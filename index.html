@@ -5,20 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>添加到越狱商店</title>
 <style>
-
-.background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, lightblue, pink, peachpuff);
-  z-index: -1;
-}
-
-  body {
-    background: black; /* 背景颜色为黑色，模拟锁屏背景 */
-    margin: 0; /* 移除默认边距 */
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, lightblue, pink, peachpuff);
+    z-index: -1;
   }
 
   body {
@@ -39,7 +33,7 @@
     height: 640px;
     background: url('https://api.yimian.xyz/img/?background-image.jpg') no-repeat center center;
     background-size: cover;
-    border: 8px solid black; /* 添加黑边框 */
+    border: 8px solid black;
     border-radius: 30px;
     overflow: hidden;
   }
@@ -49,25 +43,24 @@
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
-    width: 150px; /* 灵动岛宽度增加0.5倍 */
-    height: 30px; /* 灵动岛高度增加0.5倍 */
+    width: 150px;
+    height: 30px;
     background: #333;
-    border-radius: 15px; /* 灵动岛边角半径调整 */
+    border-radius: 15px;
     z-index: 10;
   }
 
-.screen {
-  position: absolute; /* 绝对定位，元素位置相对于最近的已定位祖先元素 */
-  top: 160px; /* 距离顶部 60 像素 */
-  left: 50%; /* 距离左边界 50% 的位置 */
-  transform: translateX(-50%); /* 水平方向上向左移动自身宽度的 50%，用于水平居中 */
-  width: 90%; /* 元素宽度为父元素宽度的 90% */
-  height: 15%; /* 元素高度为父元素高度的 75% */
-  background: rgba(255, 255, 255, 0.0); /* 背景颜色为半透明白色，透明度为 20% */
-  border-radius: 18px; /* 边框圆角为 18 像素 */
-  z-index: 5; /* 层叠顺序为 5，高于默认值，可以覆盖 z-index 较低的元素 */
-}
-
+  .screen {
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 15%;
+    background: rgba(255, 255, 255, 0.0);
+    border-radius: 18px;
+    z-index: 5;
+  }
 
   .button, .saily {
     position: absolute;
@@ -88,14 +81,14 @@
   }
 
   .button {
-    top: 90%; /* 调整按钮位置 */
-    transform: translate(-50%, -50px); /* 上移，避免重叠 */
+    top: 90%;
+    transform: translate(-50%, -50px);
     animation: glow 1.5s infinite alternate;
   }
 
   .saily {
-    top: 90%; /* 调整按钮位置 */
-    transform: translate(-50%, 30px); /* 下移，避免重叠 */
+    top: 90%;
+    transform: translate(-50%, 30px);
     animation: glow 1.5s infinite alternate;
   }
 
@@ -107,17 +100,6 @@
     100% { transform: translate(-50%, -60px) rotate(0); }
   }
 
-
-  .clock {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* 苹果使用的字体 */
-    font-size: 6em; /* 字体大小加大 */
-    font-weight: bold; /* 字体加粗 */
-    text-align: center; /* 文本居中对齐 */
-    margin-top: 20%; /* 上边距，根据需要调整 */
-    color: white; /* 字体颜色为白色 */
-  }
-  
-
   @keyframes glow {
     from {
       box-shadow: 0 0 5px #0bf, 0 0 10px #0bf, 0 0 15px #0bf, 0 0 20px #0bf;
@@ -127,10 +109,29 @@
     }
   }
 
-  /* 新增电源键、音量键和静音开关的样式 */
+  .lock-screen {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    color: white;
+    z-index: 10;
+  }
+
+  .time {
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  .date-week {
+    font-size: 18px;
+  }
+
   .power-button {
     position: absolute;
-    right: -3px; /* 与黑边框对齐 */
+    right: -3px;
     top: 100px;
     width: 3px;
     height: 30px;
@@ -139,7 +140,7 @@
 
   .volume-buttons {
     position: absolute;
-    right: -3px; /* 与黑边框对齐 */
+    right: -3px;
     top: 150px;
     width: 3px;
     height: 50px;
@@ -157,21 +158,16 @@
 
   .mute-switch {
     position: absolute;
-    right: -3px; /* 与黑边框对齐 */
+    right: -3px;
     top: 210px;
     width: 3px;
     height: 15px;
-    background: #f00; /* 静音开关为红色 */
+    background: #f00;
   }
 </style>
 </head>
 <body>
-
 <div class="background"></div>
-
-<div class="clock" id="clock"></div>
-
-
 
 <div class="iphone">
   <div class="dynamic-island"></div>
@@ -187,20 +183,26 @@
   <div class="mute-switch"></div>
 </div>
 
+<div class="lock-screen">
+  <div class="time" id="lock-time">00:00</div>
+  <div class="date-week" id="lock-date-week">2024年03月21日 星期四</div>
+</div>
 
 <script>
-function updateClock() {
-  var now = new Date();
-  var hours = now.getHours();
-  var minutes = now.getMinutes();
-  hours = hours < 10 ? '0' + hours : hours;
-  minutes = minutes < 10 ? '0' + minutes : minutes;
-  document.getElementById('clock').textContent = hours + ':' + minutes;
-}
-setInterval(updateClock, 1000);
-updateClock();
+  function updateLockScreenTime() {
+    var now = new Date();
+    var hours = now.getHours().toString().padStart(2, '0');
+    var minutes = now.getMinutes().toString().padStart(2, '0');
+    var date = now.toLocaleDateString();
+    var days = ["日", "一", "二", "三", "四", "五", "六"];
+    var dayOfWeek = days[now.getDay()];
+
+    document.getElementById('lock-time').textContent = hours + ":" + minutes;
+    document.getElementById('lock-date-week').textContent = date + " " + dayOfWeek;
+  }
+
+  updateLockScreenTime(); // 初始更新时间
+  setInterval(updateLockScreenTime, 1000); // 每秒更新一次时间
 </script>
-
-
 </body>
 </html>
