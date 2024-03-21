@@ -34,7 +34,7 @@
     height: 640px;
     background: url('background-image.jpg') no-repeat center center;
     background-size: cover;
-    border: 3px solid black; /* 添加黑边框 */
+    border: 8px solid black; /* 添加黑边框 */
     border-radius: 30px;
     overflow: hidden;
   }
@@ -63,12 +63,13 @@
     z-index: 5;
   }
 
-  .button {
-    position: relative;
-    display: block;
-    margin: 10px auto;
+  .button, .saily {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     width: 60%;
     padding: 10px;
+    margin: 10px 0;
     background: #0bf;
     border: none;
     border-radius: 10px;
@@ -78,20 +79,27 @@
     font-size: 16px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.2s ease;
+  }
+
+  .button {
+    top: 50%; /* 调整按钮位置 */
+    transform: translate(-50%, -60px); /* 上移，避免重叠 */
     animation: shake 0.5s; /* 抖动特效 */
     animation-iteration-count: infinite;
   }
 
   .saily {
+    top: 50%; /* 调整按钮位置 */
+    transform: translate(-50%, 20px); /* 下移，避免重叠 */
     animation: glow 1.5s infinite alternate;
   }
 
   @keyframes shake {
-    0% { transform: scale(1); }
-    25% { transform: scale(1.1); }
-    50% { transform: scale(1); }
-    75% { transform: scale(1.1); }
-    100% { transform: scale(1); }
+    0% { transform: translate(-50%, -60px) rotate(0); }
+    25% { transform: translate(-50%, -60px) rotate(-5deg); }
+    50% { transform: translate(-50%, -60px) rotate(0); }
+    75% { transform: translate(-50%, -60px) rotate(5deg); }
+    100% { transform: translate(-50%, -60px) rotate(0); }
   }
 
   @keyframes glow {
