@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>添加到越狱商店</title>
 <style>
-  /* 添加一个额外的包裹层用于模糊效果 */
   .background {
     position: fixed;
     top: 0;
@@ -27,6 +26,7 @@
     overflow: hidden;
     font-family: 'Arial', sans-serif;
     background: transparent;
+    box-shadow: none; /* 去除阴影 */
   }
 
   .iphone {
@@ -35,7 +35,7 @@
     height: 640px;
     background: url('background-image.jpg') no-repeat center center;
     background-size: cover;
-    border: 5px solid black; /* 添加黑边 */
+    border: 5px solid black;
     border-radius: 30px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     overflow: hidden;
@@ -53,18 +53,63 @@
     z-index: 5;
   }
 
-  /* 其他样式保持不变 */
+  .button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    background: #0bf;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+    animation: shake 0.5s; /* 抖动特效 */
+    animation-iteration-count: infinite;
+  }
 
+  .button:hover {
+    background: #08a;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1); /* 鼠标悬停放大特效 */
+  }
+
+  .button:active {
+    background: #079;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .button:first-child {
+    transform: translate(-50%, calc(-50% - 30px));
+  }
+
+  .button:last-child {
+    transform: translate(-50%, calc(-50% + 30px));
+  }
+
+  @keyframes shake {
+    0% { transform: translate(-50%, -50%) rotate(0); }
+    25% { transform: translate(-50%, -50%) rotate(-5deg); }
+    50% { transform: translate(-50%, -50%) rotate(0); }
+    75% { transform: translate(-50%, -50%) rotate(5deg); }
+    100% { transform: translate(-50%, -50%) rotate(0); }
+  }
 </style>
 </head>
 <body>
 
-<div class="background"></div> <!-- 模糊背景层 -->
+<div class="background"></div>
 
 <div class="iphone">
   <div class="screen">
     <a href="sileo://source/https://repo.rengongzhineng.live" class="button">Sileo源</a>
-    <a href="apt-repo://source/https://repo.rengongzhineng.live/" class="button">Saily源</a>
+    <a href="sileo://source/https://repo.rengongzhineng.live" class="button">Saily源</a> <!-- 更新超链接文字 -->
   </div>
 </div>
 
