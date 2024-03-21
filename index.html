@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>添加到我的越狱源</title>
+<title>添加到越狱商店</title>
 <style>
   body {
     margin: 0;
@@ -19,9 +19,10 @@
 
   .iphone {
     position: relative;
-    width: 300px;
-    height: 600px;
-    background: #666;
+    width: 320px; /* 增大尺寸 */
+    height: 640px; /* 增大尺寸 */
+    background: url('background-image.jpg') no-repeat center center; /* 添加背景图片 */
+    background-size: cover;
     border-radius: 30px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     overflow: hidden;
@@ -47,7 +48,7 @@
     transform: translateX(-50%);
     width: 90%;
     height: 80%;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.2); /* 调整屏幕透明度 */
     border-radius: 18px;
     z-index: 5;
   }
@@ -69,6 +70,8 @@
     font-size: 16px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.2s ease;
+    animation: shake 0.5s; /* 添加抖动特效 */
+    animation-iteration-count: infinite;
   }
 
   .button:hover {
@@ -87,6 +90,14 @@
 
   .button:last-child {
     transform: translate(-50%, calc(-50% + 30px));
+  }
+
+  @keyframes shake {
+    0% { transform: translate(-50%, -50%) rotate(0); }
+    25% { transform: translate(-50%, -50%) rotate(-5deg); }
+    50% { transform: translate(-50%, -50%) rotate(0); }
+    75% { transform: translate(-50%, -50%) rotate(5deg); }
+    100% { transform: translate(-50%, -50%) rotate(0); }
   }
 </style>
 </head>
