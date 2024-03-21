@@ -24,7 +24,7 @@ Architecture: iphoneos-arm
 Maintainer: Lakr Aream <launchctl@outlook.com>
 Pre-Depends: firmware (>= 13.0)
 Conflicts: wiki.qaq.ir
-Filename: ./lridium砸壳工具.deb
+Filename: ./debs/lridium砸壳工具.deb
 Size: 5415442
 MD5sum: c51d9c6ede6903c045288c3e6926dc9b
 SHA1: 1aceb87707ca303aa5f762f8a4efdb6610764f81
