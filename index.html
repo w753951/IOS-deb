@@ -3,19 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>未来科技风格特效网页</title>
+<title>添加到越狱商店</title>
 <style>
+  /* 添加一个额外的包裹层用于模糊效果 */
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, blue, red, orange);
+    filter: blur(8px);
+    z-index: -1;
+  }
+
   body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(45deg, blue, red, orange); /* 添加渐变背景 */
-    filter: blur(8px); /* 添加模糊效果 */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     overflow: hidden;
     font-family: 'Arial', sans-serif;
+    background: transparent;
   }
 
   .iphone {
@@ -28,20 +39,6 @@
     border-radius: 30px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     overflow: hidden;
-    filter: none; /* 确保模糊效果不会应用到手机上 */
-  }
-
-  .iphone:before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60%;
-    height: 5px;
-    background: #333;
-    border-radius: 10px;
   }
 
   .screen {
@@ -61,6 +58,8 @@
 </style>
 </head>
 <body>
+
+<div class="background"></div> <!-- 模糊背景层 -->
 
 <div class="iphone">
   <div class="screen">
