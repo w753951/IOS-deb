@@ -35,25 +35,24 @@
     background: url('background-image.jpg') no-repeat center center;
     background-size: cover;
     border-radius: 30px;
-    box-shadow: none; /* 去除阴影 */
     overflow: hidden;
   }
 
   .dynamic-island {
     position: absolute;
-    top: 20px;
+    top: 10px; /* 灵动岛大小调整 */
     left: 50%;
     transform: translateX(-50%);
-    width: 200px;
-    height: 40px;
+    width: 100px; /* 灵动岛宽度减半 */
+    height: 20px; /* 灵动岛高度减半 */
     background: #333;
-    border-radius: 20px;
+    border-radius: 10px; /* 灵动岛边角半径调整 */
     z-index: 10;
   }
 
   .screen {
     position: absolute;
-    top: 80px;
+    top: 40px; /* 调整以适应灵动岛大小变化 */
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
@@ -80,8 +79,6 @@
     font-size: 16px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.2s ease;
-    animation: shake 0.5s; /* 抖动特效 */
-    animation-iteration-count: infinite;
   }
 
   .button:hover {
@@ -95,12 +92,15 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .button:first-child {
+  .button:first-of-type {
     transform: translate(-50%, calc(-50% - 30px));
+    animation: shake 0.5s; /* 第一个按钮抖动特效 */
+    animation-iteration-count: infinite;
   }
 
-  .button:last-child {
+  .button:last-of-type {
     transform: translate(-50%, calc(-50% + 30px));
+    animation: pulse 1s infinite; /* 第二个按钮脉冲特效 */
   }
 
   @keyframes shake {
@@ -110,6 +110,12 @@
     75% { transform: translate(-50%, -50%) rotate(5deg); }
     100% { transform: translate(-50%, -50%) rotate(0); }
   }
+
+  @keyframes pulse {
+    0% { transform: translate(-50%, -50%) scale(1); }
+    50% { transform: translate(-50%, -50%) scale(1.05); }
+    100% { transform: translate(-50%, -50%) scale(1); }
+  }
 </style>
 </head>
 <body>
@@ -117,7 +123,7 @@
 <div class="background"></div>
 
 <div class="iphone">
-  <div class="dynamic-island"></div> <!-- 灵动岛样式 -->
+  <div class="dynamic-island"></div>
   <div class="screen">
     <a href="sileo://source/https://repo.rengongzhineng.live" class="button">Sileo源</a>
     <a href="apt-repo://source/https://repo.rengongzhineng.live/" class="button">Saily源</a>
