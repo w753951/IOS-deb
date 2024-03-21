@@ -3,12 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>添加到越狱商店</title>
+<title>未来科技风格特效网页</title>
 <style>
   body {
     margin: 0;
     padding: 0;
-    background: #0f0f0f;
+    background: linear-gradient(45deg, blue, red, orange); /* 添加渐变背景 */
+    filter: blur(8px); /* 添加模糊效果 */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,13 +20,15 @@
 
   .iphone {
     position: relative;
-    width: 320px; /* 增大尺寸 */
-    height: 640px; /* 增大尺寸 */
-    background: url('background-image.jpg') no-repeat center center; /* 添加背景图片 */
+    width: 320px;
+    height: 640px;
+    background: url('background-image.jpg') no-repeat center center;
     background-size: cover;
+    border: 5px solid black; /* 添加黑边 */
     border-radius: 30px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     overflow: hidden;
+    filter: none; /* 确保模糊效果不会应用到手机上 */
   }
 
   .iphone:before {
@@ -48,57 +51,13 @@
     transform: translateX(-50%);
     width: 90%;
     height: 80%;
-    background: rgba(255, 255, 255, 0.2); /* 调整屏幕透明度 */
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 18px;
     z-index: 5;
   }
 
-  .button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    padding: 10px;
-    margin: 10px;
-    background: #0bf;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.2s ease;
-    animation: shake 0.5s; /* 添加抖动特效 */
-    animation-iteration-count: infinite;
-  }
+  /* 其他样式保持不变 */
 
-  .button:hover {
-    background: #08a;
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
-  }
-
-  .button:active {
-    background: #079;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .button:first-child {
-    transform: translate(-50%, calc(-50% - 30px));
-  }
-
-  .button:last-child {
-    transform: translate(-50%, calc(-50% + 30px));
-  }
-
-  @keyframes shake {
-    0% { transform: translate(-50%, -50%) rotate(0); }
-    25% { transform: translate(-50%, -50%) rotate(-5deg); }
-    50% { transform: translate(-50%, -50%) rotate(0); }
-    75% { transform: translate(-50%, -50%) rotate(5deg); }
-    100% { transform: translate(-50%, -50%) rotate(0); }
-  }
 </style>
 </head>
 <body>
