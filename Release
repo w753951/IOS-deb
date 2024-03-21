@@ -1,8 +1,8 @@
-Origin: 让我上传点什么吧 - 台州个人源
-Label: 台州个人自用 - 刚玩源，等我研究研究吧
+Origin: 台州个人备用源
+Label: 台州个人源
 Suite: stable
-Version: 1.0
-Codename: https://raw.githubusercontent.com/w753951/IOS-deb/main/Release
-Architectures: iphoneos-arm
+Version: 1.8.0
+Codename: taizhou
+Architectures: iphoneos-arm iphoneos-arm64
 Components: main
-Description: 我自已用的源，兼容问题不要找我，我xina1用的。
+Description: 
