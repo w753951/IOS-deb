@@ -103,9 +103,9 @@ MD5sum: 978791031fcf9d1ef7c6a591ffb35011
 SHA1: c355175583e0e821d8a454e399ce409a65516b0b
 SHA256: 1d2e8cd3e0a847f98a8108f65db6434de3d59b76062861111f551a19eda4197b
 Section: Tweaks
-Description: A tweak to add app spoofing capabilities right from your 3D menu and prefs
+Description: 一个调整，可以直接从你的3D菜单和偏好设置中添加应用伪装功能。其中用户可以通过3D菜单和偏好设置选项直接启用应用伪装（app spoofing）功能。应用伪装通常指的是让一个应用看起来或表现得像另一个应用的过程。
 Author: 0xkuj
-Name: 3DAppVersionSpoofer
+Name: 3DAppVersionSpoofer伪装版本号
 
 Package: com.amywhile.aemulo
 Version: 1.2.2
