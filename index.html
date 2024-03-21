@@ -5,23 +5,102 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>添加到越狱商店</title>
 <style>
-  /* 其他样式保持不变 */
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, blue, red, orange);
+    filter: blur(8px);
+    z-index: -1;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    background: transparent;
+  }
 
   .iphone {
+    position: relative;
+    width: 320px;
+    height: 640px;
+    background: url('background-image.jpg') no-repeat center center;
+    background-size: cover;
     border: 3px solid black; /* 添加黑边框 */
-    /* 其他样式保持不变 */
+    border-radius: 30px;
+    overflow: hidden;
   }
 
   .dynamic-island {
-    /* 灵动岛样式保持不变 */
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px; /* 灵动岛宽度增加0.5倍 */
+    height: 30px; /* 灵动岛高度增加0.5倍 */
+    background: #333;
+    border-radius: 15px; /* 灵动岛边角半径调整 */
+    z-index: 10;
   }
 
   .screen {
-    /* 屏幕样式保持不变 */
+    position: absolute;
+    top: 60px; /* 调整以适应灵动岛大小变化 */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 75%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 18px;
+    z-index: 5;
   }
 
-  .button, .saily {
-    /* 按钮样式保持不变 */
+  .button {
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    width: 60%;
+    padding: 10px;
+    background: #0bf;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+    animation: shake 0.5s; /* 抖动特效 */
+    animation-iteration-count: infinite;
+  }
+
+  .saily {
+    animation: glow 1.5s infinite alternate;
+  }
+
+  @keyframes shake {
+    0% { transform: scale(1); }
+    25% { transform: scale(1.1); }
+    50% { transform: scale(1); }
+    75% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 5px #0bf, 0 0 10px #0bf, 0 0 15px #0bf, 0 0 20px #0bf;
+    }
+    to {
+      box-shadow: 0 0 10px #08a, 0 0 20px #08a, 0 0 30px #08a, 0 0 40px #08a;
+    }
   }
 
   /* 新增电源键、音量键和静音开关的样式 */
@@ -60,9 +139,6 @@
     height: 15px;
     background: #f00; /* 静音开关为红色 */
   }
-
-  /* 动画效果保持不变 */
-
 </style>
 </head>
 <body>
@@ -73,7 +149,7 @@
   <div class="dynamic-island"></div>
   <div class="screen">
     <a href="sileo://source/https://repo.rengongzhineng.live" class="button">Sileo源</a>
-    <a href="apt-repo://source/https://repo.rengongzhineng.live/" class="button saily">Saily源</a>
+    <a href="apt-repo://source/https://repo.rengongzhineng.live/" class="saily">Saily源</a>
   </div>
   <div class="power-button"></div>
   <div class="volume-buttons">
