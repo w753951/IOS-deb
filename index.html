@@ -16,6 +16,19 @@
   z-index: -1;
 }
 
+  .clock {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* 苹果使用的字体 */
+    font-size: 6em; /* 字体大小加大 */
+    font-weight: bold; /* 字体加粗 */
+    text-align: center; /* 文本居中对齐 */
+    margin-top: 20%; /* 上边距，根据需要调整 */
+    color: white; /* 字体颜色为白色 */
+  }
+
+  body {
+    background: black; /* 背景颜色为黑色，模拟锁屏背景 */
+    margin: 0; /* 移除默认边距 */
+  }
 
   body {
     margin: 0;
@@ -153,6 +166,21 @@
 <body>
 
 <div class="background"></div>
+
+<div class="clock" id="clock"></div>
+
+<script>
+function updateClock() {
+  var now = new Date();
+  var hours = now.getHours();
+  var minutes = now.getMinutes();
+  hours = hours < 10 ? '0' + hours : hours;
+  minutes = minutes < 10 ? '0' + minutes : minutes;
+  document.getElementById('clock').textContent = hours + ':' + minutes;
+}
+setInterval(updateClock, 1000);
+updateClock();
+</script>
 
 <div class="iphone">
   <div class="dynamic-island"></div>
