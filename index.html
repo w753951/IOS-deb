@@ -164,6 +164,20 @@
     height: 15px;
     background: #f00;
   }
+
+.announcement {
+  position: absolute;
+  top: 50%; /* 垂直居中 */
+  left: 50%; /* 水平居中 */
+  transform: translate(-50%, -50%); /* 使用变换来精确居中 */
+  width: 80%; /* 公告宽度为屏幕宽度的80% */
+  background: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
+  border-radius: 10px; /* 圆角边框 */
+  padding: 20px; /* 内边距 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+  text-align: center; /* 文本居中 */
+  z-index: 10; /* 确保公告显示在最上层 */
+}
 </style>
 </head>
 <body>
@@ -181,6 +195,12 @@
     <div class="volume-button"></div>
   </div>
   <div class="mute-switch"></div>
+</div>
+
+<div class="iphone">
+  <div class="announcement">
+    <p>重要公告：源目前可能无法下载等其它问题，因为本人也是第一次弄这个，完全小白，所有内容都是问AI创建的，有什么不懂的地方我也是一头雾水，不停的问AI解决，希望我最终能客服一切问题吧，本页面就是让AI做的，不过也花了我好长时间。请耐心等待我的源完善吧。</p>
+  </div>
 </div>
 
 <div class="lock-screen">
