@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>添加到越狱源中</title>
+<title>把我添加到越狱源中</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fun Web Animation with CSS</title>
@@ -13,7 +13,9 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #6adaa8, #4e667a);
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
     font-family: 'Arial', sans-serif;
   }
   .container {
@@ -30,18 +32,21 @@
     height: 100px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     animation: pulse 2s infinite;
     cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   .link-box:hover {
-    background: rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
   }
   @keyframes pulse {
     0% {
       transform: scale(1);
     }
     50% {
-      transform: scale(1.1);
+      transform: scale(1.05);
     }
     100% {
       transform: scale(1);
@@ -65,10 +70,10 @@
 <body>
 <div class="container">
   <div class="link-box">
-    <a href="sileo://source/https://repo.rengongzhineng.live/">Sileo</a>
+    <a href="sileo://source/https://repo.rengongzhineng.live/">添加到 Sileo</a>
   </div>
   <div class="link-box">
-    <a href="apt-repo://source/https://repo.rengongzhineng.live/">Saily</a>
+    <a href="apt-repo://source/https://repo.rengongzhineng.live/">添加到 Saily</a>
   </div>
 </div>
 </body>
