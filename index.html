@@ -1,38 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>添加到越狱源中</title>
-    <style>
-        /* 确保HTML和Body元素占满整个屏幕 */
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden; /* 防止滚动条出现 */
-        }
-
-        /* 设置背景图片 */
-        body {
-            background-image: url('background-image.jpg'); /* 替换为你的图片URL */
-            background-size: cover; /* 背景图片覆盖整个元素 */
-            background-position: center; /* 图片居中显示 */
-            background-repeat: no-repeat; /* 图片不重复 */
-            background-attachment: fixed; /* 背景图片固定，不随滚动条滚动 */
-        }
-    </style>
+<title>添加到越狱源中</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fun Web Animation with CSS</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6adaa8, #4e667a);
+    font-family: 'Arial', sans-serif;
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 600px;
+  }
+  .link-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    animation: pulse 2s infinite;
+    cursor: pointer;
+  }
+  .link-box:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transition: color 0.3s ease;
+  }
+  a:hover {
+    color: #ffdf00;
+  }
+</style>
 </head>
 <body>
-
-
-    <!-- 页面内容 -->
-<form action="#" method="post">
-				<p class="legend">添加软件源到 Sileo<span class="fa fa-hand-o-down"></span></p>
-				<a href="sileo://source/https://repo.rengongzhineng.live/">添加</a>
-				<p class="legend"></span></p>
-				<p class="legend">添加软件源到 Saily<span class="fa fa-hand-o-down"></span></p>
-				<a href="apt-repo://source/https://repo.rengongzhineng.live/">添加</a>
-				<p class="legend"></span></p>
-			</form>
-
+<div class="container">
+  <div class="link-box">
+    <a href="sileo://source/https://repo.rengongzhineng.live/">添加到 Sileo</a>
+  </div>
+  <div class="link-box">
+    <a href="apt-repo://source/https://repo.rengongzhineng.live/">添加到 Saily</a>
+  </div>
+</div>
 </body>
 </html>
