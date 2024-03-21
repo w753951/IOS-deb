@@ -4,77 +4,94 @@
 <title>添加到越狱源中</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Animated Links</title>
+<title>Futuristic Animated Links</title>
 <style>
-  body {
+  body, html {
     margin: 0;
     padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(45deg, #6e48aa, #9d50bb);
+    font-family: 'Arial', sans-serif;
+  }
+  .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
-    font-family: 'Arial', sans-serif;
+    height: 100%;
   }
-  .link-container {
+  .link-box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 30px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.1);
     display: flex;
-    justify-content: space-around;
-    width: 80%;
-    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
   }
-  .link-wrapper {
-    display: inline-block;
-    padding: 15px 30px;
-    border-radius: 50px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  .link-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
   }
-  .link-wrapper:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  .link-box::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, #6e48aa, #9d50bb);
+    border-radius: 50%;
+    z-index: -1;
+    animation: pulse 2s infinite;
   }
   .link {
-    display: block;
-    color: #333;
+    color: #fff;
+    font-size: 24px;
     text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    transition: color 0.3s ease-in-out;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
   }
-  .link:hover {
-    color: #007aff;
-  }
-  @keyframes slideIn {
-    from {
-      transform: translateX(-100%);
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 0.1;
     }
-    to {
-      transform: translateX(0%);
+    50% {
+      transform: scale(1.2);
+      opacity: 0.5;
     }
-  }
-  @keyframes slideInReverse {
-    from {
-      transform: translateX(100%);
-    }
-    to {
-      transform: translateX(0%);
+    100% {
+      transform: scale(1);
+      opacity: 0.1;
     }
   }
-  .slide-in-left {
-    animation: slideIn 1s ease forwards;
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
   }
-  .slide-in-right {
-    animation: slideInReverse 1s ease forwards;
+  .float {
+    animation: float 3s infinite ease-in-out;
   }
 </style>
 </head>
 <body>
-<div class="link-container">
-  <a href="sileo://source/https://repo.rengongzhineng.live/" class="link-wrapper slide-in-left">
+<div class="container">
+  <a href="sileo://source/https://repo.rengongzhineng.live/" class="link-box float">
     <div class="link">添加到 Sileo</div>
   </a>
-  <a href="apt-repo://source/https://repo.rengongzhineng.live/" class="link-wrapper slide-in-right">
+  <a href="apt-repo://source/https://repo.rengongzhineng.live/" class="link-box float">
     <div class="link">添加到 Saily</div>
   </a>
 </div>
