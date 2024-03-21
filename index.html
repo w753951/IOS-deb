@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>添加到我的越狱商店</title>
+<title>未来科技风格特效网页</title>
 <style>
   body {
     margin: 0;
@@ -17,35 +17,87 @@
     font-family: 'Arial', sans-serif;
   }
 
+  .iphone {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    background: #666;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+
+  .iphone:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 5px;
+    background: #333;
+    border-radius: 10px;
+  }
+
+  .screen {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 80%;
+    background: #fff;
+    border-radius: 18px;
+    z-index: 5;
+  }
+
   .button {
-    border: none;
-    outline: none;
-    cursor: pointer;
-    display: inline-block;
-    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 10px;
     margin: 10px;
-    border-radius: 5px;
-    background-color: #111;
-    color: #fff;
+    background: #0bf;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
     text-decoration: none;
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
-    transition: all 0.3s ease;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
   }
 
   .button:hover {
-    background-color: #008CBA;
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+    background: #08a;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
   }
 
   .button:active {
-    transform: scale(0.95);
+    background: #079;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .button:first-child {
+    transform: translate(-50%, calc(-50% - 30px));
+  }
+
+  .button:last-child {
+    transform: translate(-50%, calc(-50% + 30px));
   }
 </style>
 </head>
 <body>
 
-<a href="sileo://source/https://repo.rengongzhineng.live" class="button">Sileo源</a>
-<a href="apt-repo://source/https://repo.rengongzhineng.live/" class="button">APT源</a>
+<div class="iphone">
+  <div class="screen">
+    <a href="sileo://source/https://repo.rengongzhineng.live" class="button">Sileo源</a>
+    <a href="apt-repo://source/https://repo.rengongzhineng.live/" class="button">Saily源</a>
+  </div>
+</div>
 
 </body>
 </html>
