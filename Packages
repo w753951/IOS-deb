@@ -30,11 +30,11 @@ MD5sum: c51d9c6ede6903c045288c3e6926dc9b
 SHA1: 1aceb87707ca303aa5f762f8a4efdb6610764f81
 SHA256: 688466bd19d6edca993d738da7843062c845b84859c33c7b94997ee113d22409
 Section: 工具
-Description: 专业砸壳工具，不是靠吹，反正就是虚
+Description: 专业砸壳工具
 Author: Lakr Aream <launchctl@outlook.com>
 Icon: file:///Applications/Cydia.app/Sections/Utilities.png
 Name: Iridium砸壳工具
-Sponsor: Cydiakk中文源™ <http://apt.cydiakk.com/>
+Sponsor: 台州搬运
 
 Package: byg.iosios.net.limitcharging.rootless
 Version: 0.0.3-1
