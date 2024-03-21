@@ -1,80 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>把我添加到越狱源中</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fun Web Animation with CSS</title>
+<title>添加到越狱源中</title>
 <style>
-  body {
+  body, html {
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url('background-image.jpg');
+    height: 100%;
+    overflow: hidden;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: center;
-    font-family: 'Arial', sans-serif;
   }
-  .container {
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    max-width: 600px;
+  .cube-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    transform-style: preserve-3d;
+    animation: rotateCube 10s infinite linear;
+    transform: translate(-50%, -50%);
   }
-  .link-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    animation: pulse 2s infinite;
-    cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  .cube {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.5);
   }
-  .link-box:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
-  }
-  @keyframes pulse {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.05);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
-  a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-    display: block;
-    text-align: center;
+  .face {
+    position: absolute;
     width: 100%;
     height: 100%;
-    transition: color 0.3s ease;
+    background: none;
+    border: none;
   }
-  a:hover {
-    color: #ffdf00;
+  .front { transform: translateZ(15%); }
+  .back { transform: rotateY(180deg) translateZ(15%); }
+  .right { transform: rotateY(90deg) translateZ(15%); }
+  .left { transform: rotateY(-90deg) translateZ(15%); }
+  .top { transform: rotateX(90deg) translateZ(15%); }
+  .bottom { transform: rotateX(-90deg) translateZ(15%); }
+  @keyframes rotateCube {
+    from { transform: rotateX(0deg) rotateY(0deg); }
+    to { transform: rotateX(360deg) rotateY(360deg); }
+  }
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    text-decoration: none;
+    pointer-events: none;
+  }
+  a:hover + .face {
+    animation: hoverEffect 0.5s forwards;
+  }
+  @keyframes hoverEffect {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
   }
 </style>
 </head>
 <body>
-<div class="container">
-  <div class="link-box">
-    <a href="sileo://source/https://repo.rengongzhineng.live/">  添加到 Sileo</a>
-  </div>
-  <div class="link-box">
-    <a href="apt-repo://source/https://repo.rengongzhineng.live/">  添加到 Saily</a>
-  </div>
+<div class="cube-container">
+  <div class="cube front"><a href="sileo://source/https://repo.rengongzhineng.live/"></a></div>
+  <div class="cube back"></div>
+  <div class="cube right"></div>
+  <div class="cube left"></div>
+  <div class="cube top"></div>
+  <div class="cube bottom"></div>
+</div>
+<div class="cube-container" style="animation-delay: 5s;">
+  <div class="cube front"><a href="apt-repo://source/https://repo.rengongzhineng.live/"></a></div>
+  <div class="cube back"></div>
+  <div class="cube right"></div>
+  <div class="cube left"></div>
+  <div class="cube top"></div>
+  <div class="cube bottom"></div>
 </div>
 </body>
 </html>
