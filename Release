@@ -1,9 +1,0 @@
-Origin: 台州备份源
-Label: 台州备份源
-Suite: stable
-Version: 1.0
-Codename: buster,bullseye,ubuntu
-Architectures: iphoneos-arm,iphoneos-arm64,all
-Components: main
-Description: 个人备份源
-SigningKeys: 
