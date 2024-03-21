@@ -170,13 +170,18 @@
   top: 50%; /* 垂直居中 */
   left: 50%; /* 水平居中 */
   transform: translate(-50%, -50%); /* 使用变换来精确居中 */
-  width: 60%; /* 公告宽度为屏幕宽度的80% */
+  width: 60%; /* 公告宽度为屏幕宽度的60% */
   background: rgba(255, 255, 255, 0.4); /* 半透明白色背景 */
   border-radius: 10px; /* 圆角边框 */
-  padding: 20px; /* 内边距 */
+  padding: 15px; /* 内边距 */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
   text-align: center; /* 文本居中 */
   z-index: 10; /* 确保公告显示在最上层 */
+  box-sizing: border-box; /* 确保宽度和高度包括内边距和边框 */
+  display: flex; /* 使用flex布局 */
+  flex-direction: column; /* 子元素垂直排列 */
+  justify-content: center; /* 子元素在交叉轴上居中 */
+  align-items: center; /* 子元素在主轴上居中 */
 }
 </style>
 </head>
