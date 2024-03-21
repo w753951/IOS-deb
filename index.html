@@ -26,7 +26,6 @@
     overflow: hidden;
     font-family: 'Arial', sans-serif;
     background: transparent;
-    box-shadow: none; /* 去除阴影 */
   }
 
   .iphone {
@@ -35,19 +34,30 @@
     height: 640px;
     background: url('background-image.jpg') no-repeat center center;
     background-size: cover;
-    border: 5px solid black;
     border-radius: 30px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: none; /* 去除阴影 */
     overflow: hidden;
+  }
+
+  .dynamic-island {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 40px;
+    background: #333;
+    border-radius: 20px;
+    z-index: 10;
   }
 
   .screen {
     position: absolute;
-    top: 50px;
+    top: 80px;
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
-    height: 80%;
+    height: 75%;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 18px;
     z-index: 5;
@@ -107,9 +117,10 @@
 <div class="background"></div>
 
 <div class="iphone">
+  <div class="dynamic-island"></div> <!-- 灵动岛样式 -->
   <div class="screen">
     <a href="sileo://source/https://repo.rengongzhineng.live" class="button">Sileo源</a>
-    <a href="sileo://source/https://repo.rengongzhineng.live" class="button">Saily源</a> <!-- 更新超链接文字 -->
+    <a href="apt-repo://source/https://repo.rengongzhineng.live/" class="button">Saily源</a>
   </div>
 </div>
 
