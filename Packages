@@ -12,12 +12,12 @@ Name: 免费的分屏插件split-view-pro
 
 Package: applist
 Version: 1.5.16-palera1n1
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: Ryan Petrich <rpetrich@gmail.com>
 Installed-Size: 780
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
 Conflicts: com.a3tweaks.polus (<< 2.0.7)
-Filename: ./applist_1.5.16-palera1n1_iphoneos-arm.deb
+Filename: debs/applist_1.5.16-palera1n1_iphoneos-arm.deb
 Size: 105400
 MD5sum: af88067deb4da0b53cbe308ae2478ea5
 SHA1: 51c197fc20e6991138e54c2d91a8f9bf9d7d055e
@@ -32,7 +32,7 @@ Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 
 Package: apt.cydiakk.iridium
 Version: 1.2.15-REL-1669371195
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: Lakr Aream <launchctl@outlook.com>
 Pre-Depends: firmware (>= 13.0)
 Conflicts: wiki.qaq.ir
@@ -54,7 +54,7 @@ Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: 搬运工
 Installed-Size: 348
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/真皮的充电保护.deb
+Filename: debs/真皮的充电保护.deb
 Size: 20066
 MD5sum: 018d0dc5f31df95e8e86a3ff7afdd131
 SHA1: b0f05e9e4ae2e9dd663b82f75a70e89a90a45fcd
@@ -72,7 +72,7 @@ Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: 搬运工
 Installed-Size: 2013
 Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./微信净化223不消失版.deb
+Filename: debs/微信净化223不消失版.deb
 Size: 791488
 MD5sum: 22131429e8e4b0916694265a28fe72c5
 SHA1: 06790d83b9e1bfbbdc0d97552a57e306e143cace
@@ -91,7 +91,7 @@ Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: 搬运工
 Installed-Size: 2412
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./录屏红点.deb
+Filename: debs/录屏红点.deb
 Size: 914698
 MD5sum: 0461b07cb2be4c33faacbd37f4a75209
 SHA1: 48115660d1a2521bfa80c4ca381b60a32b27705f
@@ -105,11 +105,11 @@ Sponsor: 台州搬运
 
 Package: com.0xkuj.3dappversionspoofer
 Version: 1.3
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: 0xkuj
 Installed-Size: 424
 Depends: com.opa334.altlist
-Filename: ./伪装版本号阻止应用升级汉化版.deb
+Filename: debs/伪装版本号阻止应用升级汉化版.deb
 Size: 55066
 MD5sum: 978791031fcf9d1ef7c6a591ffb35011
 SHA1: c355175583e0e821d8a454e399ce409a65516b0b
@@ -121,12 +121,12 @@ Name: 3DAppVersionSpoofer伪装版本号
 
 Package: com.amywhile.aemulo
 Version: 1.2.2
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: Amy While <support@anamy.gay>
 Installed-Size: 2444
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
 Conflicts: com.amywhile.aemulotrial
-Filename: ./[收费插件]Aemulo1.2.2钱包正常模拟Nfc版.deb
+Filename: debs/[收费插件]Aemulo1.2.2钱包正常模拟Nfc版.deb
 Size: 632958
 MD5sum: e7690d48364e19f83f07612025a76ceb
 SHA1: 510b7b7f46bfc8364c41f3c9cea8194d913e12d6
@@ -141,11 +141,11 @@ Name: Aemulo
 
 Package: com.brend0n.qqmusicdesktoplyrics
 Version: 0.3.8~b3
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: Brend0n <brendonjkding@126.com>
 Installed-Size: 2748
 Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (>= 15.0), preferenceloader
-Filename: ./桌面歌词desktoplyrics_0.3.8~b3_iphoneos-arm.deb
+Filename: debs/桌面歌词desktoplyrics_0.3.8~b3_iphoneos-arm.deb
 Size: 968212
 MD5sum: e322e70d42978881ceea162c3ee64d9a
 SHA1: 70a5ecddaaa368ba06f03d081fba1421c6d3da8b
@@ -159,11 +159,11 @@ Sileodepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.qqmusi
 
 Package: com.flex2areo.appprotect
 Version: 1.8.0
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: aReo
 Installed-Size: 1508
 Depends: mobilesubstrate,preferenceloader
-Filename: ./隐私管家appprotect_1.8.0.deb
+Filename: debs/隐私管家appprotect_1.8.0.deb
 Size: 339086
 MD5sum: 9b79d125d6801495049cc8e0ccd9140a
 SHA1: d8a96bf74006ccb7dea13aa43fcf7bf681ac2866
@@ -175,11 +175,11 @@ Name: AppProtect
 
 Package: com.flex2areo.apptools15
 Version: 1.1.5
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: aReo
 Installed-Size: 1564
 Depends: mobilesubstrate
-Filename: ./[收费插件]apptools15_1.1.5-arm.deb
+Filename: debs/[收费插件]apptools15_1.1.5-arm.deb
 Size: 355280
 MD5sum: 8399991f25392921c8a7f46bfb3ddc70
 SHA1: 138254042abbd34f6c43683e59018eaec31cfad3
@@ -191,9 +191,9 @@ Name: AppTools for iOS15
 
 Package: com.hackyouriphone.aphrodite
 Version: 0.6.12~beta2
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: HackYouriPhone <repo@hackyouriphone.org>
-Filename: ./car提取png.deb
+Filename: debs/car提取png.deb
 Size: 2128076
 MD5sum: 6c50cde522c72522a0a7cd40badebdd0
 SHA1: 2e5746c5294d79eaa1aea542de6c291f2106ab70
@@ -208,10 +208,10 @@ Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename
 
 Package: com.hk.backgrounderaction13
 Version: 0.1.4
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: akusio <akusio-report@neko2.net>
 Depends: mobilesubstrate, com.opa334.ccsupport
-Filename: ./控制中心真后台模块2.deb
+Filename: debs/控制中心真后台模块2.deb
 Size: 16158
 MD5sum: 228d94ed5ad1a29a88b43b0cac4a24b9
 SHA1: 5e643661371220ffcc9d1c7909c68047d318ee54
@@ -223,11 +223,11 @@ Name: 真后台模块2
 
 Package: com.hk.classickeyboardxs
 Version: 1.1-6
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: Nets
 Installed-Size: 356
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Filename: ./键盘去下巴.deb
+Filename: debs/键盘去下巴.deb
 Size: 61352
 MD5sum: 15fb9394c4aad99f4231de46c9d13ddd
 SHA1: 1e828aaa58a32dd634c99fa7188e608027fd53a8
@@ -238,11 +238,11 @@ Name: ClassicKeyboardXS
 
 Package: com.lclrc.hammerit
 Version: 1.5.0
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: lclrc(SquidForce)
 Installed-Size: 2304
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, firmware (>= 14.0)
-Filename: ./锤子翻译hammerit_1.5.0_arm.deb
+Filename: debs/锤子翻译hammerit_1.5.0_arm.deb
 Size: 436842
 MD5sum: 2d6238bd07b09b41d6bcdf1f72525484
 SHA1: 74450fdad36c03df49fbb8d376bdb3e114268fa2
@@ -255,11 +255,11 @@ Name: Hammer It
 
 Package: com.lclrc.snapper3.plugins
 Version: 1.0
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: SquidForce(乌贼力量)
 Installed-Size: 208
 Depends: mobilesubstrate (>= 1.0.5000)
-Filename: ./截图3补丁snapper3.plugins_1.0_iphoneos-arm.deb
+Filename: debs/截图3补丁snapper3.plugins_1.0_iphoneos-arm.deb
 Size: 33236
 MD5sum: 976b7e18553473469faa012c0cdcf54f
 SHA1: 1a4ed299ff5c13caf61c417af78156a5275f25a0
@@ -271,10 +271,10 @@ Name: Plugins For Snapper3
 
 Package: com.lenglengyu.passbycc
 Version: 1.0.2
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: lenglengyu <lenglengyu@126.com>
 Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
-Filename: ./绕开面容passbycc_1.0.2.deb
+Filename: debs/绕开面容passbycc_1.0.2.deb
 Size: 109480
 MD5sum: e70fd4db1851fc7eb551e13469951e63
 SHA1: 1a00e15b2ab08e273e28972f89967d596741be52
@@ -288,11 +288,11 @@ Sileodepiction: https://repo.lenglengyu.top/packageInfo/passbyccsileo
 
 Package: com.mika.pineappletools
 Version: 1.0.9
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 5556
 Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
-Filename: ./菠萝原版备份_1.0.9.deb
+Filename: debs/菠萝原版备份_1.0.9.deb
 Size: 904668
 MD5sum: d0cdd4947de8cb9bcb25c0438fa4e8e4
 SHA1: 6e4db45f4ebbb8dccb43856372ec378b6d49f3c9
@@ -310,11 +310,11 @@ Sponsor: 台州搬运
 
 Package: com.niceios.nicebarx15
 Version: 1.0.2.3-15
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: niceios
 Installed-Size: 9400
 Depends: mobilesubstrate,com.niceios.nicehelper(>=5.2),preferenceloader
-Filename: ./状态美化临退正常.deb
+Filename: debs/状态美化临退正常.deb
 Size: 4170916
 MD5sum: fd663486b212296fddc35dcf67e2c469
 SHA1: 6ed4f751091044db0750d35cd9fb63eb3c6001c7
@@ -327,11 +327,11 @@ Sponsor: 台州搬运
 
 Package: com.niceios.nicecaller15
 Version: 1.0.0.4-26
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: NiceiOS
 Installed-Size: 12276
 Depends: mobilesubstrate,com.niceios.nicehelper(>=4.6),preferenceloader
-Filename: ./[收费插件]电话增强nicecaller15_1.0.0.4-26.deb
+Filename: debs/[收费插件]电话增强nicecaller15_1.0.0.4-26.deb
 Size: 5310122
 MD5sum: 2e8de30f87e3a779e9c6f6492cb82042
 SHA1: 640f0d9d8dd14dbacb68c55aa247a837d4fc30eb
@@ -344,10 +344,10 @@ Sponsor: 台州搬运
 
 Package: com.niceios.nicehelper
 Version: 4.8-7
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: niceios
 Installed-Size: 2108
-Filename: ./——Nicehelper_4.8-7_Nice依赖.deb
+Filename: debs/——Nicehelper_4.8-7_Nice依赖.deb
 Size: 972460
 MD5sum: a35166adfda73e0ea4ce35d4b83fed34
 SHA1: 5b07fc958e4bd9eeb66483749ff1bdf32fe8b7e3
@@ -360,11 +360,11 @@ Sponsor: 台州搬运
 
 Package: com.opa334.altlist
 Version: 1.0.10
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 306
 Depends: firmware (>= 7.0)
-Filename: ./进程杀手依赖altlist_1.0.10.deb
+Filename: debs/进程杀手依赖altlist_1.0.10.deb
 Size: 46884
 MD5sum: ba58444d88ad1adbf8f327ad4c89be70
 SHA1: 9a35bb59e77f01ba99671ce9ed48804051c0b918
@@ -381,14 +381,14 @@ Sponsor: 台州搬运
 
 Package: com.opa334.ccsupport
 Version: 1.3.9
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 388
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: com.ioscreatix.silo
 Replaces: com.ioscreatix.silo
 Provides: com.ioscreatix.silo
-Filename: ./——ccsupport_1.3.9控制中心依赖.deb
+Filename: debs/——ccsupport_1.3.9控制中心依赖.deb
 Size: 60852
 MD5sum: 95cac4c28cdb57066c64a59f662e7681
 SHA1: 5230e978e4cb2f0357cbfa644f712556385e70e8
@@ -405,11 +405,11 @@ Sponsor: 台州搬运
 
 Package: com.snail.always120
 Version: 1.1.0
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: Snail <mu514983786@gmail.com>
 Installed-Size: 696
 Depends: mobilesubstrate (>= 0.9.5000),preferenceloader,com.opa334.altlist
-Filename: ./120刷新Xina专用-com.snail.always120_1.1.0_iphoneos-arm.deb
+Filename: debs/120刷新Xina专用-com.snail.always120_1.1.0_iphoneos-arm.deb
 Size: 158450
 MD5sum: 026ac8f32ff0c0352bd3aa09f60e8f62
 SHA1: c04f0a3cf4809ea19c579083455607ec7c5787d1
@@ -421,11 +421,11 @@ Name: 蜗牛自适应+锁定120 Always120
 
 Package: com.spark.sneakycam
 Version: 2.0.6
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: Spark
 Installed-Size: 560
 Depends: mobilesubstrate, preferenceloader
-Filename: ./隐私拍照_2.0.6_自己修改完美版.deb
+Filename: debs/隐私拍照_2.0.6_自己修改完美版.deb
 Size: 109890
 MD5sum: 36943764aa983cc701673dcc2bcb11d8
 SHA1: 9281cd6f8b40a78b8d62f8de24716970d092f99c
@@ -437,14 +437,14 @@ Name: SneakyCam
 
 Package: com.spark.snowboard
 Version: 1.5.15-Beta3
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: Spark
 Installed-Size: 4228
 Depends: mobilesubstrate, preferenceloader
 Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Filename: ./滑雪板snowboard_1.5.15-Beta3_自己修改完美版.deb
+Filename: debs/滑雪板snowboard_1.5.15-Beta3_自己修改完美版.deb
 Size: 1522356
 MD5sum: 9f335a360fbb5b1e4b9212b915ea6636
 SHA1: 36a41131feca67b60c4630c1359dc89f9cf5fd18
@@ -456,11 +456,11 @@ Name: SnowBoard
 
 Package: com.udevs.vedette
 Version: 1.1.4
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: udevs
 Installed-Size: 440
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist
-Filename: ./进程杀手vedette_1.1.4.deb
+Filename: debs/进程杀手vedette_1.1.4.deb
 Size: 72360
 MD5sum: fec1764d2d13badf6f4d4d8df74dcf18
 SHA1: c9226ee2487c828cc5b03b2587648fc21b606cf9
@@ -474,11 +474,11 @@ Name: Vedette
 
 Package: com.yourepo.lly.dismissalert
 Version: 1.0.0
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: lenglengyu <lenglengyu@126.com>
 Installed-Size: 540
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
-Filename: ./屏蔽系统级弹窗.deb
+Filename: debs/屏蔽系统级弹窗.deb
 Size: 89434
 MD5sum: bf3a541f8e88c15eba8f6ae71e73e164
 SHA1: e8d311e981e260f621d933ac9398c184626cef9f
@@ -492,11 +492,11 @@ Sileodepiction: https://repo.lenglengyu.top/packageInfo/dismissalertsileo
 
 Package: jp.soh.freepip
 Version: 0.0.3-1
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: Soh Satoh
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./自定义画中画.deb
+Filename: debs/自定义画中画.deb
 Size: 6724
 MD5sum: 54b735a8b97d56b248507e27012ae2ac
 SHA1: 3b20d2955d5162ce19cf30b4c7731db5a847a1f7
@@ -508,11 +508,11 @@ Name: FreePIP
 
 Package: netskao.disabletestflightblock
 Version: 1.1-4
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: Nets
 Installed-Size: 104
 Depends: firmware (>= 14.0), mobilesubstrate
-Filename: ./解除国区账号无法下载国区AppSrore内已下架或者未上架国区的对应TestFlight应用.deb
+Filename: debs/解除国区账号无法下载国区AppSrore内已下架或者未上架国区的对应TestFlight应用.deb
 Size: 12792
 MD5sum: 9e4c1bca61fa93bb2b77cb3e47e70541
 SHA1: 56802da23fd710cf6797327efb5d5eb72c2aa7a3
@@ -524,12 +524,12 @@ Name: DisableTestFlightBlock
 
 Package: netskao.pulloverpro
 Version: 2.1.3-5
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: Nets
 Installed-Size: 1488
 Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
 Conflicts: com.c1d3r.pulloverpro
-Filename: ./侧边分屏2.1.3-5.deb
+Filename: debs/侧边分屏2.1.3-5.deb
 Size: 337026
 MD5sum: 5ed8f86e4139d209dc3e397e1058d20e
 SHA1: 9ad54f0fddc747adfa7668eeea62cc6749867bf4
@@ -541,12 +541,12 @@ Name: PullOver Pro
 
 Package: sileoturk.icleanerpro
 Version: 7.10.0~beta1k
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: Önder Azazi <onderazazi@hotmail.com>
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro
 Replaces: org.altervista.exilecom.icleaner, com.exile90.icleanerpro
-Filename: ./清理垃圾icleanerpro.deb
+Filename: debs/清理垃圾icleanerpro.deb
 Size: 3472254
 MD5sum: 379c5d11ca2063fec02c42b2457a27db
 SHA1: 49f3a9dda5889e63a73b70afbd2a4bee5dc4a7a5
@@ -558,11 +558,11 @@ Name: iCleaner Pro
 
 Package: sileoturkiye.speaknotification
 Version: 1.8.19
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: Önder Azazi <onderazazi@hotmail.com>
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
 Conflicts: org.thebigboss.speaknotification
-Filename: ./语音通知_1.8.19_自己修改完美版.deb
+Filename: debs/语音通知_1.8.19_自己修改完美版.deb
 Size: 261040
 MD5sum: d700c4f2d2a5e49fc5a93deac70b4ec2
 SHA1: 630b2e7c2e26c9a223b8b0398b59430bb79131d2
@@ -574,11 +574,11 @@ Name: Speak Notification
 
 Package: xc.lzsxcl.o2
 Version: 7.0
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: lzsxcl
 Installed-Size: 30940
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Filename: ./xc.lzsxcl.o2_7.0_iphoneos-arm.deb
+Filename: debs/xc.lzsxcl.o2_7.0_iphoneos-arm.deb
 Size: 22870300
 MD5sum: 8c269953c4c21ed4954cb7c66ed28822
 SHA1: d6f243a3d3c42dcb9073b756119a3e07e997cd24
@@ -593,10 +593,10 @@ Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depic
 
 Package: xinaa15
 Version: 99.0
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: CyPwn
 Depends: firmware (>= 15.0), firmware (<= 15.1.1)
-Filename: ./分屏依赖xinaa15_99.0.deb
+Filename: debs/分屏依赖xinaa15_99.0.deb
 Size: 766
 MD5sum: f73230da6eee8e92113118958a6ec5a0
 SHA1: 805876a8806365e5b4d3fc6e2096c1bc1132247b
@@ -609,10 +609,10 @@ Name: XinaA15
 
 Package: xyz.cypwn.backgrounderaction15
 Version: 0.1.0
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: CyPwn
 Depends: mobilesubstrate, com.opa334.ccsupport
-Filename: ./15控制中心后台.deb
+Filename: debs/15控制中心后台.deb
 Size: 31286
 MD5sum: ce440abaf23a0ee19232c4431e510506
 SHA1: ac46082ad5103a2f345b9ca838b6da3d4896a8d8
@@ -627,12 +627,12 @@ Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1581
 
 Package: xyz.cypwn.cocoatop64
 Version: 2.2.3
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: CyPwn
 Installed-Size: 915
 Depends: firmware (>= 10.0)
 Conflicts: ru.domo.cocoatop
-Filename: ./进程查看cocoatop64_2.2.3.deb
+Filename: debs/进程查看cocoatop64_2.2.3.deb
 Size: 313818
 MD5sum: 39291d1958992b5a594cfd582a4bfdad
 SHA1: 5aea744d3f5bd5ab38384e1d8243bd33b068375e
@@ -647,10 +647,10 @@ Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/54
 
 Package: xyz.cypwn.powercuff
 Version: 0.1~18
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: CyPwn
 Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.opa334.altlist
-Filename: ./降低设备功耗powercuff_0.1~18.deb
+Filename: debs/降低设备功耗powercuff_0.1~18.deb
 Size: 34500
 MD5sum: 73569a2cf37ea61bcd50039518408247
 SHA1: 2934051eb6e054879b9249df07d65e1a25278d48
@@ -665,11 +665,11 @@ Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/602
 
 Package: xyz.cypwn.snapper3
 Version: 1.0k
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64 iphoneos-arm64
 Maintainer: CyPwn
 Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix
-Filename: ./智能截图snapper3_1.0k.deb
+Filename: debs/智能截图snapper3_1.0k.deb
 Size: 1108248
 MD5sum: 3256ec48761d539794be152bad5276f8
 SHA1: 79ea86f9564b3abeb7f4bc8a67180940a52def34
@@ -684,11 +684,11 @@ Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1312
 
 Package: xyz.cypwn.zetsuxina15
 Version: 1.1
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: CyPwn
 Installed-Size: 2480
 Depends: mobilesubstrate, firmware (>=15.0), preferenceloader, xinaa15
-Filename: ./分屏zetsu_xina15_1.1.deb
+Filename: debs/分屏zetsu_xina15_1.1.deb
 Size: 1919894
 MD5sum: be4810d24054d9f36794aef6c083e027
 SHA1: 3597494d9badeddd347dc72a43a4824e8780248a
@@ -703,10 +703,10 @@ Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1135
 
 Package: zip
 Version: 3.0-11
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 1392
-Filename: ./——zip_3.0-11_砸壳依赖(apptools砸壳备份要装的依赖).deb
+Filename: debs/——zip_3.0-11_砸壳依赖(apptools砸壳备份要装的依赖).deb
 Size: 129616
 MD5sum: 2c18a4d60d8fa382bb87f30b08be403e
 SHA1: 21d65a364f7f96259755d03b725608b6e4a8ff6e
