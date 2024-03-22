@@ -24,7 +24,7 @@ Architecture: iphoneos-arm
 Maintainer: Lakr Aream <launchctl@outlook.com>
 Pre-Depends: firmware (>= 13.0)
 Conflicts: wiki.qaq.ir
-Filename: ./debs/lridium砸壳工具.deb
+Filename: /debs/lridium砸壳工具.deb
 Size: 5415442
 MD5sum: c51d9c6ede6903c045288c3e6926dc9b
 SHA1: 1aceb87707ca303aa5f762f8a4efdb6610764f81
@@ -38,11 +38,11 @@ Sponsor: 台州搬运
 
 Package: byg.iosios.net.limitcharging.rootless
 Version: 0.0.3-1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: 搬运工
 Installed-Size: 348
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./真皮的充电保护.deb
+Filename: ./debs/真皮的充电保护.deb
 Size: 20066
 MD5sum: 018d0dc5f31df95e8e86a3ff7afdd131
 SHA1: b0f05e9e4ae2e9dd663b82f75a70e89a90a45fcd
@@ -56,7 +56,7 @@ Sponsor: 台州搬运
 
 Package: byg.iosios.net.neverupdat.wechatpurification
 Version: 2.2-3
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: 搬运工
 Installed-Size: 2013
 Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000)
@@ -75,7 +75,7 @@ Sponsor: 台州搬运
 
 Package: byg.iosios.net.showtouch-rootless
 Version: 1.0.4-2
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: 搬运工
 Installed-Size: 2412
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
