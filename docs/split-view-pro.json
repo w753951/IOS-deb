@@ -1,7 +1,7 @@
 
 {
 	"minVersion": "0.1",
-	"headerImage": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/b8a3351d2f63bf82c365135e02b7ba89.jpg",
+	"headerImage": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split-bg.jpg",
 	"tintColor": "#3784d2",
 	"tabs": [
 		{
@@ -13,51 +13,14 @@
 					"screenshots": [
 						{
 							"accessibilityText": "Featured Animes",
-							"url": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_1.png",
-							"fullSizeURL": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_1.png"
+							"url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split1.PNG",
+							"fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split1.PNG"
 						},
 						{
 							"accessibilityText": "Recently Viewed",
-							"url": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_2.png",
-							"fullSizeURL": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_2.png"
+							"url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG",
+							"fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG"
 						},
-						{
-							"accessibilityText": "Search",
-							"url": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_3.png",
-							"fullSizeURL": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_3.png"
-						},
-						{
-							"accessibilityText": "Search Results",
-							"url": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_4.png",
-							"fullSizeURL": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_4.png"
-						},
-						{
-							"accessibilityText": "Featured Animes",
-							"url": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_5.png",
-							"fullSizeURL": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_5.png"
-						},						
-						{
-							"accessibilityText": "Featured Animes",
-							"url": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_6.png",
-							"fullSizeURL": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_6.png"
-						},
-						{
-							"accessibilityText": "Featured Animes",
-							"url": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_7.png",
-							"fullSizeURL": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_7.png"
-						},
-{
-							"accessibilityText": "Featured Animes",
-							"url": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_8.png",
-							"fullSizeURL": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_8.png"
-						},
-{
-							"accessibilityText": "Featured Animes",
-							"url": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_9.png",
-							"fullSizeURL": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_9.png"
-						},
-						
-						
 					],
 					"ipad": {
 						"itemCornerRadius": 9,
@@ -65,8 +28,8 @@
 						"screenshots": [
 							{
 								"accessibilityText": "Featured Animes",
-								"url": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_1.png",
-								"fullSizeURL": "https://raw.githubusercontent.com/lzsxcl/repo/main/depictions/xc.lzsxcl.o2/screenshots/screenshot_1.png"
+								"url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG",
+								"fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG"
 							},
 						],
 						"class": "DepictionScreenshotView"
@@ -75,29 +38,24 @@
 				},
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "## 核心功能\n一步打通应用间的边界，全新美观便捷的分屏新方式。"
-				},
-				{
-					"title": "获取授权码",
-					"action": "http://m.kuaifaka.net/shop/3Tv5O1",
-					"class": "DepictionTableButtonView"
+					"markdown": "## 良心分屏\n免费的分屏你能不爱吗?。"
 				},
 				{
 					"class": "DepictionSeparatorView"
 				},
 				{
 					"title": "开发者",
-					"text": "lzsxcl",
+					"text": "多吃不胖",
 					"class": "DepictionTableTextView"
 				},
 				{
 					"title": "兼容",
-					"text": "13.0 - 15.4.1",
+					"text": "15.0 - 16.4.1",
 					"class": "DepictionTableTextView"
 				},
 				{
 					"title": "支持设备",
-					"text": "6S-13PM",
+					"text": "13-14PM",
 					"class": "DepictionTableTextView"
 				},				
 				{
@@ -121,12 +79,12 @@
 					"class": "DepictionSubheaderView"
 				},				
 				{
-					"markdown": "\t\n\u2023 不再提供更新日志，有日志页也不会有人看",
+					"markdown": "\t\n\u2023 增加了左下角区域触摸调整大小,小分屏可正面平铺",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
 				},
 				{
-					"markdown": "<small style=\"color: #999; margin-top: -8px;\">日志更新于 2023.02.02</small>",
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">日志更新于 2024.03.21</small>",
 					"useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				}
