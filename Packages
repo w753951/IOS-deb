@@ -84,7 +84,7 @@ Sponsor: 台州搬运
 
 Package: byg.iosios.net.limitcharging.rootless
 Version: 0.0.3-1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64, iphoneos-arm
 Maintainer: 台州搬运
 Installed-Size: 348
 Depends: mobilesubstrate (>= 0.9.5000)
