@@ -79,7 +79,7 @@
 					"class": "DepictionSubheaderView"
 				},				
 				{
-  					"markdown": "增加了左下角区域触摸调整大小，小分屏可正面平铺\n![Split Screen Image](https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG)",
+  					"markdown": "增加了左下角区域触摸调整大小，小分屏可正面平铺",
   					"useSpacing": false,
   					"class": "DepictionMarkdownView"
 				}
