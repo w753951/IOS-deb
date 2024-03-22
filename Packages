@@ -12,6 +12,19 @@ Name: 免费的分屏插件split-view-pro
 Sileodepiction: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/split-view-pro.json
 Icon: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split@3x.png
 
+Package: byg.iosios.net.neverupdat.wechatpurification
+Version: 2.2-3
+Architecture: iphoneos-arm64 iphoneos-arm
+Maintainer: 台州搬运
+Installed-Size: 2013
+Filename: debs/微信净化223不消失版.deb
+Section: 微信插件
+Description: 微信净化无时间限制版本，不会隔段时间就更新，不会消失，适合低端选手养老！有需要的用户建议搭配微信8.0.26以下版本使用。但是缺少部分功能：无视频转语音、无气泡字体快捷修改，无小信号，
+但是基本上功能够用，无以上功能需求的用户可以使用，可能会有少许bug，低版本就是这样，望理解！感谢威锋论坛锋友许章驰提供分享！
+Author: 台州搬运
+Name: 免费的分屏插件split-view-pro
+Sponsor: 台州搬运
+
 Package: applist
 Version: 1.5.16-palera1n1
 Architecture: iphoneos-arm64 iphoneos-arm
@@ -66,25 +79,6 @@ Description: 过充保护，设备充电上限！锁屏不断WiFi，冲冲冲！
 Author: zqbb
 Icon: https://chinesebuilding.club/pic/cydia.png
 Name: 限制充电锁屏不断WiFi-Rootless
-Sponsor: 台州搬运
-
-Package: byg.iosios.net.neverupdat.wechatpurification
-Version: 2.2-3
-Architecture: iphoneos-arm
-Maintainer: 搬运工
-Installed-Size: 2013
-Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000)
-Filename: debs/微信净化223不消失版.deb
-Size: 791488
-MD5sum: 22131429e8e4b0916694265a28fe72c5
-SHA1: 06790d83b9e1bfbbdc0d97552a57e306e143cace
-SHA256: 4e730bf7ae7b7a47ef940c7c0cb80cf77fc7ba727a5c4b54baedd8c458cff329
-Section: 微信插件
-Description: 微信净化无时间限制版本，不会隔段时间就更新，不会消失，适合低端选手养老！有需要的用户建议搭配微信8.0.26以下版本使用。但是缺少部分功能：无视频转语音、无气泡字体快捷修改，无小信号，但是基本上功能够用，无以上功能需求的用户可以使用，可能会有少许bug，低版本就是这样，望理解！感谢威锋论坛锋友许章驰提供分享！
-Tag: purpose::extension
-Author: Netskao
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: 微信净化不更新消失版-Rootless
 Sponsor: 台州搬运
 
 Package: byg.iosios.net.showtouch-rootless
