@@ -1,96 +1,47 @@
 {
-  "minVersion": "0.1",
+  "version": "0.1",
   "headerImage": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split-bg.jpg",
   "tintColor": "#3784d2",
-  "tabs": [
+  "content": [
     {
-      "tabname": "预览介绍",
-      "views": [
-        {
-          "itemCornerRadius": 6,
-          "itemSize": "{160, 275.41333333333336}",
-          "screenshots": [
-            {
-              "accessibilityText": "Featured Animes",
-              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split1.PNG",
-              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split1.PNG"
-            },
-            {
-              "accessibilityText": "Recently Viewed",
-              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG",
-              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG"
-            }
-          ],
-          "ipad": {
-            "itemCornerRadius": 9,
-            "itemSize": "{350, 550.8266666666667}",
-            "screenshots": [
-              {
-                "accessibilityText": "Featured Animes",
-                "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG",
-                "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG"
-              }
-            ],
-            "class": "DepictionScreenshotView"
-          },
-          "class": "DepictionScreenshotsView"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "## 良心分屏\n免费的分屏你能不爱吗?。"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "title": "开发者",
-          "text": "qq网名:多吃不胖",
-          "class": "DepictionTableTextView"
-        },
-        {
-          "title": "兼容",
-          "text": "15.0 - 16.4.1",
-          "class": "DepictionTableTextView"
-        },
-        {
-          "title": "官方群",
-          "text": "qq群659669133",
-          "class": "DepictionTableTextView"
-        },
-        {
-          "spacing": 16,
-          "class": "DepictionSpacerView"
-        },
-        {
-          "spacing": 20,
-          "class": "DepictionSpacerView"
-        }
-      ],
-      "class": "DepictionStackView"
+      "type": "description",
+      "title": "良心分屏",
+      "text": "免费的分屏功能，您值得拥有。"
     },
     {
-      "tabname": "更新日志",
-      "views": [
+      "type": "screenshot",
+      "images": [
+        "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split1.PNG",
+        "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG"
+      ]
+    },
+    {
+      "type": "section",
+      "title": "开发者信息",
+      "items": [
         {
-          "title": "📱🔍📝🧠😕看看日志都说了啥",
-          "useBoldText": true,
-          "useBottomMargin": true,
-          "class": "DepictionSubheaderView"
+          "label": "开发者",
+          "value": "多吃不胖"
         },
         {
-          "markdown": "增加了左下角区域触摸调整大小，小分屏可正面平铺\n![查看图片](https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG)",
-          "useSpacing": false,
-          "class": "DepictionMarkdownView"
+          "label": "兼容版本",
+          "value": "15.0 - 16.4.1"
         },
         {
-          "markdown": "<small style=\"color: #999; margin-top: -8px;\">日志更新于 2024.03.21</small>",
-          "useRawFormat": true,
-          "class": "DepictionMarkdownView"
+          "label": "官方群",
+          "value": "659669133"
         }
-      ],
-      "class": "DepictionStackView"
+      ]
+    },
+    {
+      "type": "update",
+      "title": "最新更新",
+      "entries": [
+        {
+          "date": "2024.03.21",
+          "changes": "增加了左下角区域触摸调整大小，小分屏可正面平铺"
+        }
+      ]
     }
-  ],
-  "class": "DepictionTabView",
-  "style": "body { background: linear-gradient(to right, blue, red, orange); }"
+  ]
 }
