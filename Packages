@@ -52,7 +52,7 @@ Sponsor: 台州搬运
 
 Package: byg.iosios.net.limitcharging.rootless
 Version: 0.0.3-1
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: 台州搬运
 Installed-Size: 348
 Depends: mobilesubstrate (>= 0.9.5000)
@@ -70,7 +70,7 @@ Sponsor: 台州搬运
 
 Package: byg.iosios.net.neverupdat.wechatpurification
 Version: 2.2-3
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: 搬运工
 Installed-Size: 2013
 Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000)
