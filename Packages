@@ -113,7 +113,7 @@ Sponsor: 台州搬运
 
 Package: byg.iosios.net.limitcharging.rootless
 Version: 0.0.3-1
-Architecture: iphoneos-arm64, iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: 台州搬运
 Installed-Size: 348
 Depends: mobilesubstrate (>= 0.9.5000)
@@ -122,7 +122,7 @@ Size: 20066
 MD5sum: 018d0dc5f31df95e8e86a3ff7afdd131
 SHA1: b0f05e9e4ae2e9dd663b82f75a70e89a90a45fcd
 SHA256: 3f7bbac2bcaa4fda4a775ccd71e8d08bc66d375f063be45a7548ffa30e1c0431
-Section: 系统级
+Section: 工具类
 Description: 过充保护，设备充电上限！锁屏不断WiFi，冲冲冲！请关闭电池健康-优化电池充电再使用！
 Author: zqbb
 Icon: https://chinesebuilding.club/pic/cydia.png
