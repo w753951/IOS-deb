@@ -9,6 +9,7 @@ Section: Tweaks
 Description: 增加了左下角触屏区域大小调整,多屏模式支持正面显示。
 Author: 多吃不胖
 Name: 免费的分屏插件split-view-pro
+Sileodepiction: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/split-view-pro.json
 
 Package: applist
 Version: 1.5.16-palera1n1
