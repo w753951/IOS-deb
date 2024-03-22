@@ -1,15 +1,14 @@
 Package: com.sunshinesong.split-view-pro
-Name: 分屏插件split-view-pro
-Description: 别问，问就是分屏插件！该插件不收费，功能会慢慢整合。同时这个插件刚问道不久，自然也有很多不足，我会慢慢完善。最重要的一点：它不会窃取你任何隐私，不存在任何后门！其次：它尽量把操作复杂度降到最低。
+Version: 0.0.3-1-47+debug
+Architecture: iphoneos-arm64
 Maintainer: sunshinesong
-Author: sunshinesong
+Installed-Size: 1032
+Depends: mobilesubstrate (>= 0.9.5000)
 Filename: com.sunshinesong.split-view-pro_0.0.3-1-47+debug_iphoneos-arm64.deb
 Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 0.0.3-1-47+debug
-Installed-Size: 1056
-Sponsor: 台州搬运
+Description: 别问，问就是分屏插件！该插件不收费，功能会慢慢整合。同时这个插件刚问道不久，自然也有很多不足，我会慢慢完善。最重要的一点：它不会窃取你任何隐私，不存在任何后门！其次：它尽量把操作复杂度降到最低。
+Author: sunshinesong
+Name: 分屏插件com.sunshinesong.split-view-pro
 
 Package: applist
 Version: 1.5.16-palera1n1
@@ -454,22 +453,6 @@ Section: Tweaks
 Description: Snowboard theming engine
 Author: Spark & Dennis D. Bednarz
 Name: SnowBoard
-
-Package: com.sunshinesong.split-view-pro
-Version: 0.0.3-1-19+debug
-Architecture: iphoneos-arm64
-Maintainer: sunshinesong
-Installed-Size: 1032
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./com.sunshinesong.split-view-pro_0.0.3-1-19+debug_iphoneos-arm64.deb
-Size: 280852
-MD5sum: a276a36e2c6acd0eb720cf86adc030f0
-SHA1: 652af0d122d9641299b7a7ceec124f07c02f5770
-SHA256: 788c590f00f291e4fb6d3e5e51a5ae97349c8988a5561f2961bb3ea608458975
-Section: Tweaks
-Description: 别问，问就是分屏插件！该插件不收费，功能会慢慢整合。同时这个插件刚问道不久，自然也有很多不足，我会慢慢完善。最重要的一点：它不会窃取你任何隐私，不存在任何后门！其次：它尽量把操作复杂度降到最低。
-Author: sunshinesong
-Name: split-view-pro
 
 Package: com.udevs.vedette
 Version: 1.1.4
