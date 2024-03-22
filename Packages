@@ -1,6 +1,6 @@
 Package: com.sunshinesong.split-view-pro
 Version: 0.0.3-1-47+debug
-Architecture: iphoneos-arm iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: QQ:多吃不胖
 Installed-Size: 30940
 Depends: preferenceloader, firmware (>= 14.0)
@@ -16,7 +16,7 @@ Sileodepiction: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/spli
 
 Package: xc.lzsxcl.o2
 Version: 7.0
-Architecture: iphoneos-arm iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: lzsxcl
 Installed-Size: 30940
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
@@ -35,11 +35,12 @@ Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depic
 
 Package: byg.iosios.net.neverupdat.wechatpurification
 Version: 2.2-3
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
 Maintainer: 台州搬运
 Installed-Size: 2013
 Filename: debs/微信净化223不消失版.deb
-Section: 微信插件 应用级
+Section: 微信插件
 Description: 微信净化无时间限制版本，不会隔段时间就更新，不会消失，适合低端选手养老！有需要的用户建议搭配微信8.0.26以下版本使用。但是缺少部分功能：无视频转语音、无气泡字体快捷修改，无小信号，
 但是基本上功能够用，无以上功能需求的用户可以使用，可能会有少许bug，低版本就是这样，望理解！感谢威锋论坛锋友许章驰提供分享！
 Author: 台州搬运
@@ -74,9 +75,6 @@ Depends: preferenceloader, firmware (>= 14.0)
 Conflicts: wiki.qaq.ir
 Filename: /debs/lridium砸壳工具.deb
 Size: 5415442
-MD5sum: c51d9c6ede6903c045288c3e6926dc9b
-SHA1: 1aceb87707ca303aa5f762f8a4efdb6610764f81
-SHA256: 688466bd19d6edca993d738da7843062c845b84859c33c7b94997ee113d22409
 Section: 系统级
 Description: 专业砸壳工具
 Author: Lakr Aream <launchctl@outlook.com>
