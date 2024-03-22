@@ -35,7 +35,7 @@ Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depic
 
 Package: byg.iosios.net.neverupdat.wechatpurification
 Version: 2.2-3
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
 Maintainer: 台州搬运
 Installed-Size: 2013
