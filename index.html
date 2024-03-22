@@ -82,7 +82,7 @@
 
   .button {
     top: 90%;
-    transform: translate(-50%, -50px);
+    transform: translate(-50%, -30px);
     animation: glow 1.5s infinite alternate;
   }
 
@@ -170,13 +170,14 @@
   top: 45%; /* 将公告窗口向下移动到屏幕高度的40%的位置 */
   left: 50%;
   transform: translate(-50%, 0); /* 水平居中，不需要垂直偏移 */
-  width: 70%;
+  max-width: 300px; /* 设置最大宽度与手机界面宽度一致 */
   background: rgba(255, 255, 255, 0.4);
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   z-index: 10;
+  margin: 0 auto; /* 水平居中 */
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -203,7 +204,7 @@
 </div>
 
   <div class="announcement">
-    重要公告：源目前可能无法下载等其它问题，因为本人也是第一次弄这个，完全小白，所有内容都是问AI创建的，希望我最终能克服一切问题吧，请耐心等待我的源完善吧。
+    重要公告：由于是个人备用源,不保证deb包你们都能用,也不保证及时更新资源,但有时我会上传些好东西的.
   </div>
 
 
