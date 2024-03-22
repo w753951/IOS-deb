@@ -27,7 +27,7 @@ Description: Allow extensions to read the list of installed apps
 Author: Ryan Petrich <rpetrich@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 Dev: rpetrich
-Name: AppList
+Name: 依赖AppList
 Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 
 Package: apt.cydiakk.iridium
@@ -45,13 +45,13 @@ Section: 工具
 Description: 专业砸壳工具
 Author: Lakr Aream <launchctl@outlook.com>
 Icon: file:///Applications/Cydia.app/Sections/Utilities.png
-Name: Iridium砸壳工具
+Name: Iridium砸壳工具(14下用)
 Sponsor: 台州搬运
 
 Package: byg.iosios.net.limitcharging.rootless
 Version: 0.0.3-1
 Architecture: iphoneos-arm64 iphoneos-arm
-Maintainer: 搬运工
+Maintainer: 台州搬运
 Installed-Size: 348
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/真皮的充电保护.deb
@@ -137,7 +137,7 @@ Tag: cydia::commercial, compatible_min::ios13.0
 Author: Amy While <support@anamy.gay>
 Depiction: https://chariz.com/buy/aemulo
 Icon: https://img.chariz.cloud/icon/aemulo/icon@3x.png
-Name: Aemulo
+Name: Aemulo苹果手机的NFC功能(旧版本自用)
 
 Package: com.brend0n.qqmusicdesktoplyrics
 Version: 0.3.8~b3
@@ -154,7 +154,7 @@ Section: Tweaks
 Description: Show lyrics anywhere
 Author: Brend0n <brendonjkding@126.com>
 Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.qqmusicdesktoplyrics
-Name: DesktopLyrics
+Name: 手机桌面歌词desktoplyrics
 Sileodepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.qqmusicdesktoplyrics/depiction.json
 
 Package: com.flex2areo.appprotect
@@ -171,7 +171,7 @@ SHA256: cc7e2e4bb81107e8fe2aa7835d4f106d93ba531b811160124dad5247651ff957
 Section: Tweaks
 Description: App 隐私保护
 Author: aReo
-Name: AppProtect
+Name: AppProtect(App隐私保护-面容锁)
 
 Package: com.flex2areo.apptools15
 Version: 1.1.5
@@ -187,7 +187,7 @@ SHA256: 9c9dd513843f8a3d32bb1d36c72b3940bf69058aca7f47fc9438386768a3e6e9
 Section: Tweaks
 Description: AppTools for iOS15
 Author: aReo
-Name: AppTools for iOS15
+Name: AppTools(应用增强-锁屏后台等)
 
 Package: com.hackyouriphone.aphrodite
 Version: 0.6.12~beta2
@@ -203,7 +203,7 @@ Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=aphrod
 Description: Asset Catalog Editor
 Author: Joey GM <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=aphrodite
-Name: Aphrodite
+Name: Aphrodite(提取car图片用的)
 Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=aphrodite
 
 Package: com.hk.backgrounderaction13
@@ -216,10 +216,10 @@ Size: 16158
 MD5sum: 228d94ed5ad1a29a88b43b0cac4a24b9
 SHA1: 5e643661371220ffcc9d1c7909c68047d318ee54
 SHA256: b92adfb74e1acff0055f4ca17c4829480d0ed0a716b54978bc47eab2d51fe053
-Section: 嗨-工具
+Section: 台州搬运
 Description: 适用于iOS13的控制中心"真后台"模块，可配合MilkyWay2分屏。
 Author: akusio <akusio-report@neko2.net>
-Name: 真后台模块2
+Name: 真后台模块2(控制中心下拉加入真后台)
 
 Package: com.hk.classickeyboardxs
 Version: 1.1-6
@@ -232,13 +232,13 @@ Size: 61352
 MD5sum: 15fb9394c4aad99f4231de46c9d13ddd
 SHA1: 1e828aaa58a32dd634c99fa7188e608027fd53a8
 SHA256: 906ad2eaedc5e55ea1febae6f6aa8a006e5feceeb11ab0e76420ee1e5b55855e
-Section: 嗨-工具
+Section: 台州搬运
 Author: Netskao
-Name: ClassicKeyboardXS
+Name: 键盘去下巴ClassicKeyboardXS
 
 Package: com.lclrc.hammerit
 Version: 1.5.0
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: lclrc(SquidForce)
 Installed-Size: 2304
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, firmware (>= 14.0)
@@ -251,7 +251,7 @@ Section: Tweaks
 Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
-Name: Hammer It
+Name: 锤子翻译特别好了用(150旧版自用)
 
 Package: com.lclrc.snapper3.plugins
 Version: 1.0
@@ -265,9 +265,9 @@ MD5sum: 976b7e18553473469faa012c0cdcf54f
 SHA1: 1a4ed299ff5c13caf61c417af78156a5275f25a0
 SHA256: 7d944359ecceef778a286e96c2ba56f0321e05dfa8ecfebcb3fde7f74d4c4aeb
 Section: Tweaks
-Description: including iMark and Piiico for now
+Description: 让智能截图3的操作栏增加很多有用的按钮,比如翻译,标记待
 Author: SquidForce(乌贼力量)
-Name: Plugins For Snapper3
+Name: 智能截图3增强插件Plugins For Snapper3
 
 Package: com.lenglengyu.passbycc
 Version: 1.0.2
@@ -283,12 +283,12 @@ Section: Control Center (Modules)
 Description: 控制中心模块，临时绕过面容，绕过密码解锁，修改为FaceID图标，tg巨魔商店。
 Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/passbycc.html
-Name: 临时绕过面容
+Name: 临时绕过面容(控制中心下拉开启不需要面容解锁)
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/passbyccsileo
 
 Package: com.mika.pineappletools
 Version: 1.0.9
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 5556
 Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
@@ -305,12 +305,12 @@ Author: Mika <mika368@163.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=pineappletoolsDp
 Dev: mika368
 Icon: file:///Library/PreferenceBundles/ptbundle.bundle/pt@2x.png
-Name: 菠萝工具
+Name: 菠萝工具(迷你通知,桌面歌词等ios15用)
 Sponsor: 台州搬运
 
 Package: com.niceios.nicebarx15
 Version: 1.0.2.3-15
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: niceios
 Installed-Size: 9400
 Depends: mobilesubstrate,com.niceios.nicehelper(>=5.2),preferenceloader
@@ -322,12 +322,12 @@ SHA256: 60f942cafc649357344139aa03adb5aa10e91054aa914696d9cfaa942c282c47
 Section: Tweaks
 Description: 状态栏插件.
 Author: niceios
-Name: NiceBarX(iOS15)
+Name: 好看的状态栏插件NiceBarX(iOS15)
 Sponsor: 台州搬运
 
 Package: com.niceios.nicecaller15
 Version: 1.0.0.4-26
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: NiceiOS
 Installed-Size: 12276
 Depends: mobilesubstrate,com.niceios.nicehelper(>=4.6),preferenceloader
@@ -339,12 +339,12 @@ SHA256: 49d739c61a19ba72d034547e0e6a21e35428443efaad598b3ae5fa758766c52d
 Section: Tweaks
 Description: 通话录音,变声器,背景声音,自动应答,安卓样式拨号键盘,骚扰拦截,窗口电话(Callbar),归属地显示
 Author: NiceiOS
-Name: NiceCaller(iOS15)
+Name: 电话功能增强NiceCaller(iOS15)
 Sponsor: 台州搬运
 
 Package: com.niceios.nicehelper
 Version: 4.8-7
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: niceios
 Installed-Size: 2108
 Filename: debs/——Nicehelper_4.8-7_Nice依赖.deb
@@ -355,12 +355,12 @@ SHA256: f16bbc779fc183c31ec81320c042ff77fc2569de94d387be09c63b7ec93861ca
 Section: Addons
 Description: nice插件依赖组件.
 Author: niceios
-Name: NiceHelper
+Name: 依赖NiceHelper
 Sponsor: 台州搬运
 
 Package: com.opa334.altlist
 Version: 1.0.10
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 306
 Depends: firmware (>= 7.0)
@@ -381,7 +381,7 @@ Sponsor: 台州搬运
 
 Package: com.opa334.ccsupport
 Version: 1.3.9
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 388
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
@@ -400,12 +400,12 @@ Tag: purpose::extension
 Author: opa334 <opa334@protonmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 Dev: opa334
-Name: CCSupport
+Name: 控制中心增强依赖CCSupport
 Sponsor: 台州搬运
 
 Package: com.snail.always120
 Version: 1.1.0
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: Snail <mu514983786@gmail.com>
 Installed-Size: 696
 Depends: mobilesubstrate (>= 0.9.5000),preferenceloader,com.opa334.altlist
@@ -421,7 +421,7 @@ Name: 蜗牛自适应+锁定120 Always120
 
 Package: com.spark.sneakycam
 Version: 2.0.6
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: Spark
 Installed-Size: 560
 Depends: mobilesubstrate, preferenceloader
@@ -433,11 +433,11 @@ SHA256: 7ce30d24a84296f95a4d64abc5ef978e793a3cfc21b3844dc640141dfb2b8fa8
 Section: Tweaks
 Description: Discretely take a photo or record a video from anywhere, even with your screen off.
 Author: Spark
-Name: SneakyCam
+Name: 隐私拍照(偷拍神器)SneakyCam
 
 Package: com.spark.snowboard
 Version: 1.5.15-Beta3
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: Spark
 Installed-Size: 4228
 Depends: mobilesubstrate, preferenceloader
@@ -452,11 +452,11 @@ SHA256: c008d33e47e9276f046c78fe9fdc0ace3933ec30c932d4c53366e635bb44c19c
 Section: Tweaks
 Description: Snowboard theming engine
 Author: Spark & Dennis D. Bednarz
-Name: SnowBoard
+Name: 美化插件SnowBoard
 
 Package: com.udevs.vedette
 Version: 1.1.4
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: udevs
 Installed-Size: 440
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist
@@ -470,11 +470,11 @@ Description: Monitor CPU hogging processes
 Author: udevs
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
-Name: Vedette
+Name: 进程杀手Vedette
 
 Package: com.yourepo.lly.dismissalert
 Version: 1.0.0
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: lenglengyu <lenglengyu@126.com>
 Installed-Size: 540
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
@@ -487,12 +487,12 @@ Section: Tweaks
 Description: 强制取消系统弹窗，如授权弹窗、app签名到期弹窗等等。
 Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/dismissalert.html
-Name: DismissAlert【屏蔽弹窗】
+Name: DismissAlert(屏蔽系统级弹窗)
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/dismissalertsileo
 
 Package: jp.soh.freepip
 Version: 0.0.3-1
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: Soh Satoh
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
@@ -504,7 +504,7 @@ SHA256: 78518486cdcacf3bc53d4c79ef5b1aa3b3011e3635bf2d32027c4864242def09
 Section: Tweaks
 Description: FreePIP is a tweak to un-snap and scale the view of Picture-in-Picture on iOS unlimitedly. Long Press PIP window to enable freepip mode. 解锁画中画的限制，可以放在任意位置和调整到任意大小。长按画中画窗口进入 FreePIP 模式进行调整。v0.0.3-1更新：改为默认是正常模式，略微美化FreePIP模式。
 Author: Soh Satoh
-Name: FreePIP
+Name: FreePIP自定义画中画
 
 Package: netskao.disabletestflightblock
 Version: 1.1-4
@@ -520,11 +520,11 @@ SHA256: b9c4911917191a89fd2d74a338b1edb6910ba056837300d33c3a71bb904c1c0d
 Section: Netskao-Tweaks
 Description: 解除国区账号无法下载国区AppSrore内已下架或者未上架国区的对应TestFlight应用
 Author: Netskao
-Name: DisableTestFlightBlock
+Name: DisableTestFlightBlock(解除国区账号无法下载)
 
 Package: netskao.pulloverpro
 Version: 2.1.3-5
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 1488
 Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
@@ -537,7 +537,7 @@ SHA256: 54194519337cd24d1c0b1e1bdad013e6a43fa7b6736f38fd266fe05152f2fadf
 Section: Netskao-Tweaks
 Description: A better way to multitask! Fix support for iOS14-iOS15
 Author: c1d3r
-Name: PullOver Pro
+Name: 侧边分屏PullOver Pro
 
 Package: sileoturk.icleanerpro
 Version: 7.10.0~beta1k
@@ -554,11 +554,11 @@ SHA256: f28a27a526b6b208a2af77f0a4349117cf7b938d0d5ab8b43e6971d00fbdfd72
 Section: TR - Uygulama
 Description: İlk gerçek iOS sistemi temizleyici ve optimize edici.
 Author: Ivano Bilenchi
-Name: iCleaner Pro
+Name: 扫把清理用iCleaner Pro
 
 Package: sileoturkiye.speaknotification
 Version: 1.8.19
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: Önder Azazi <onderazazi@hotmail.com>
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
 Conflicts: org.thebigboss.speaknotification
@@ -570,11 +570,11 @@ SHA256: 859db060d4480710f314f9d644d6f0c97020bf0d558788738f4c62b5ea2d5172
 Section: TR - TR Yama
 Description: Bildirimleriniz dil gelsin. İsterseniz belirlediğiniz özel mesajlar, isterseniz gelen bildirimler, üstelik kendi dilinde sesli olarak okunacak.
 Author: merdok
-Name: Speak Notification
+Name: 语音读通知(语音播报)speaknotification
 
 Package: xc.lzsxcl.o2
 Version: 7.0
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: lzsxcl
 Installed-Size: 30940
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
@@ -588,7 +588,7 @@ Description: 一步打通应用间的边界，全新美观便捷的分屏新方�
 Author: lzsxcl
 Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
 Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
-Name: o2 Pro
+Name: o2 Pro分屏旧版(越狱界人人喊打的家伙)
 Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
 
 Package: xinaa15
@@ -622,7 +622,7 @@ Description: Add "Toggle Background Mode" action to ControlCenter for iOS 15
 Author: akusio_RR
 Depiction: https://repo.cypwn.xyz/depiction/1581
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/backgrounderaction15.png
-Name: BackgrounderAction15 CCSupport
+Name: 15控制中心真后台按钮
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1581
 
 Package: xyz.cypwn.cocoatop64
@@ -642,7 +642,7 @@ Description: Process Viewer for iOS 10 - 14
 Author: Domo <domo@rambler.ru>
 Depiction: https://repo.cypwn.xyz/depiction/54
 Icon: https://cydia.saurik.com/icon/ru.domo.cocoatop.png
-Name: CocoaTop64
+Name: 进程查看cocoatop64(类似电脑的任务管理器)
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/54
 
 Package: xyz.cypwn.powercuff
@@ -660,7 +660,7 @@ Description: Select from additional low power device states
 Author: Ryan Petrich
 Depiction: https://repo.cypwn.xyz/depiction/602
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/powercuff.png
-Name: Powercuff
+Name: 降低设备功耗Powercuff
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/602
 
 Package: xyz.cypwn.snapper3
@@ -679,12 +679,12 @@ Description: Pin screenshots on the screen. K'd by CBZ.
 Author: Jonathan Winger-lang
 Depiction: https://repo.cypwn.xyz/depiction/1312
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/snapper3.png
-Name: Snapper 3
+Name: 智能截图Snapper 3
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1312
 
 Package: xyz.cypwn.zetsuxina15
 Version: 1.1
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: CyPwn
 Installed-Size: 2480
 Depends: mobilesubstrate, firmware (>=15.0), preferenceloader, xinaa15
@@ -698,7 +698,7 @@ Description: Multitasking on iOS15.
 Author: Dcsyhi
 Depiction: https://repo.cypwn.xyz/depiction/1135
 Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
-Name: Zetsu (Xina)
+Name: 分屏Zetsu (Xina)
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1135
 
 Package: zip
