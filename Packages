@@ -1,6 +1,6 @@
 Package: com.sunshinesong.split-view-pro
 Version: 0.0.3-1-47+debug
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: QQ:多吃不胖
 Installed-Size: 30940
 Depends: preferenceloader, firmware (>= 14.0)
@@ -15,7 +15,7 @@ Sileodepiction: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/spli
 
 Package: xc.lzsxcl.o2
 Version: 7.0
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: lzsxcl
 Installed-Size: 30940
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
@@ -34,7 +34,7 @@ Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depic
 
 Package: xyz.cypwn.zetsuxina15
 Version: 1.1
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: 台州搬运
 Installed-Size: 2480
 Depends: preferenceloader, firmware (>= 14.0)
@@ -48,12 +48,12 @@ Name: 分屏Zetsu (Xina)
 
 Package: netskao.pulloverpro
 Version: 2.1.3-5
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 1488
 Depends: preferenceloader, firmware (>= 14.0)
 Conflicts: com.c1d3r.pulloverpro
-Filename: debs/侧边分屏2.1.3-5.deb
+Filename: debs/PullOver_Pro2.1.3-5.deb
 Size: 337026
 Section: 分屏类
 Description: 狗哥接手的项目,特别好用 iOS14-iOS15
@@ -62,7 +62,7 @@ Name: 分屏PullOver Pro
 
 Package: byg.iosios.net.neverupdat.wechatpurification
 Version: 2.2-3
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
 Maintainer: 台州搬运
 Installed-Size: 2013
@@ -76,7 +76,7 @@ Sponsor: 台州搬运
 
 Package: applist
 Version: 1.5.16-palera1n1
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: Ryan Petrich <rpetrich@gmail.com>
 Installed-Size: 780
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
@@ -96,7 +96,7 @@ Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 
 Package: apt.cydiakk.iridium
 Version: 1.2.15-REL-1669371195
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: Lakr Aream <launchctl@outlook.com>
 Depends: preferenceloader, firmware (>= 14.0)
 Conflicts: wiki.qaq.ir
@@ -111,7 +111,7 @@ Sponsor: 台州搬运
 
 Package: byg.iosios.net.limitcharging.rootless
 Version: 0.0.3-1
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: 台州搬运
 Installed-Size: 348
 Depends: mobilesubstrate (>= 0.9.5000)
@@ -129,7 +129,7 @@ Sponsor: 台州搬运
 
 Package: byg.iosios.net.showtouch-rootless
 Version: 1.0.4-2
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: 搬运工
 Installed-Size: 2412
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
@@ -147,7 +147,7 @@ Sponsor: 台州搬运
 
 Package: com.0xkuj.3dappversionspoofer
 Version: 1.3
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: 0xkuj
 Installed-Size: 424
 Depends: com.opa334.altlist
@@ -163,7 +163,7 @@ Name: 3DAppVersionSpoofer伪装版本号
 
 Package: com.amywhile.aemulo
 Version: 1.2.2
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: Amy While <support@anamy.gay>
 Installed-Size: 2444
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
@@ -183,7 +183,7 @@ Name: Aemulo苹果手机的NFC功能(旧版本自用)
 
 Package: com.brend0n.qqmusicdesktoplyrics
 Version: 0.3.8~b3
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: Brend0n <brendonjkding@126.com>
 Installed-Size: 2748
 Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (>= 15.0), preferenceloader
@@ -201,7 +201,7 @@ Sileodepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.qqmusi
 
 Package: com.flex2areo.appprotect
 Version: 1.8.0
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: aReo
 Installed-Size: 1508
 Depends: mobilesubstrate,preferenceloader
@@ -217,7 +217,7 @@ Name: AppProtect(App隐私保护-面容锁)
 
 Package: com.flex2areo.apptools15
 Version: 1.1.5
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: aReo
 Installed-Size: 1564
 Depends: mobilesubstrate
@@ -233,7 +233,7 @@ Name: AppTools(应用增强-锁屏后台等)
 
 Package: com.hackyouriphone.aphrodite
 Version: 0.6.12~beta2
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: HackYouriPhone <repo@hackyouriphone.org>
 Filename: debs/car提取png.deb
 Size: 2128076
@@ -250,7 +250,7 @@ Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename
 
 Package: com.hk.backgrounderaction13
 Version: 0.1.4
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: akusio <akusio-report@neko2.net>
 Depends: mobilesubstrate, com.opa334.ccsupport
 Filename: debs/控制中心真后台模块2.deb
@@ -265,7 +265,7 @@ Name: 真后台模块2(控制中心下拉加入真后台)
 
 Package: com.hk.classickeyboardxs
 Version: 1.1-6
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 356
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
@@ -280,7 +280,7 @@ Name: 键盘去下巴ClassicKeyboardXS
 
 Package: com.lclrc.hammerit
 Version: 1.5.0
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: lclrc(SquidForce)
 Installed-Size: 2304
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, firmware (>= 14.0)
@@ -297,7 +297,7 @@ Name: 锤子翻译特别好了用(150旧版自用)
 
 Package: com.lclrc.snapper3.plugins
 Version: 1.0
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: SquidForce(乌贼力量)
 Installed-Size: 208
 Depends: mobilesubstrate (>= 1.0.5000)
@@ -313,7 +313,7 @@ Name: 智能截图3增强插件Plugins For Snapper3
 
 Package: com.lenglengyu.passbycc
 Version: 1.0.2
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: lenglengyu <lenglengyu@126.com>
 Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
 Filename: debs/绕开面容passbycc_1.0.2.deb
@@ -330,7 +330,7 @@ Sileodepiction: https://repo.lenglengyu.top/packageInfo/passbyccsileo
 
 Package: com.mika.pineappletools
 Version: 1.0.9
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 5556
 Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
@@ -352,7 +352,7 @@ Sponsor: 台州搬运
 
 Package: com.niceios.nicebarx15
 Version: 1.0.2.3-15
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: niceios
 Installed-Size: 9400
 Depends: mobilesubstrate,com.niceios.nicehelper(>=5.2),preferenceloader
@@ -369,7 +369,7 @@ Sponsor: 台州搬运
 
 Package: com.niceios.nicecaller15
 Version: 1.0.0.4-26
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: NiceiOS
 Installed-Size: 12276
 Depends: mobilesubstrate,com.niceios.nicehelper(>=4.6),preferenceloader
@@ -386,7 +386,7 @@ Sponsor: 台州搬运
 
 Package: com.niceios.nicehelper
 Version: 4.8-7
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: niceios
 Installed-Size: 2108
 Filename: debs/——Nicehelper_4.8-7_Nice依赖.deb
@@ -402,7 +402,7 @@ Sponsor: 台州搬运
 
 Package: com.opa334.altlist
 Version: 1.0.10
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 306
 Depends: firmware (>= 7.0)
@@ -423,7 +423,7 @@ Sponsor: 台州搬运
 
 Package: com.opa334.ccsupport
 Version: 1.3.9
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 388
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
@@ -447,7 +447,7 @@ Sponsor: 台州搬运
 
 Package: com.snail.always120
 Version: 1.1.0
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: Snail <mu514983786@gmail.com>
 Installed-Size: 696
 Depends: mobilesubstrate (>= 0.9.5000),preferenceloader,com.opa334.altlist
@@ -463,7 +463,7 @@ Name: 蜗牛自适应+锁定120 Always120
 
 Package: com.spark.sneakycam
 Version: 2.0.6
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: Spark
 Installed-Size: 560
 Depends: mobilesubstrate, preferenceloader
@@ -479,7 +479,7 @@ Name: 隐私拍照(偷拍神器)SneakyCam
 
 Package: com.spark.snowboard
 Version: 1.5.15-Beta3
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: Spark
 Installed-Size: 4228
 Depends: mobilesubstrate, preferenceloader
@@ -498,7 +498,7 @@ Name: 美化插件SnowBoard
 
 Package: com.udevs.vedette
 Version: 1.1.4
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: udevs
 Installed-Size: 440
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist
@@ -516,7 +516,7 @@ Name: 进程杀手Vedette
 
 Package: com.yourepo.lly.dismissalert
 Version: 1.0.0
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: lenglengyu <lenglengyu@126.com>
 Installed-Size: 540
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
@@ -534,7 +534,7 @@ Sileodepiction: https://repo.lenglengyu.top/packageInfo/dismissalertsileo
 
 Package: jp.soh.freepip
 Version: 0.0.3-1
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: Soh Satoh
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
@@ -550,7 +550,7 @@ Name: FreePIP自定义画中画
 
 Package: netskao.disabletestflightblock
 Version: 1.1-4
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 104
 Depends: firmware (>= 14.0), mobilesubstrate
@@ -566,7 +566,7 @@ Name: DisableTestFlightBlock(解除国区账号无法下载)
 
 Package: sileoturk.icleanerpro
 Version: 7.10.0~beta1k
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: Önder Azazi <onderazazi@hotmail.com>
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner, com.exile90.icleanerpro
@@ -583,7 +583,7 @@ Name: 扫把清理用iCleaner Pro
 
 Package: sileoturkiye.speaknotification
 Version: 1.8.19
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: Önder Azazi <onderazazi@hotmail.com>
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
 Conflicts: org.thebigboss.speaknotification
@@ -599,7 +599,7 @@ Name: 语音读通知(语音播报)speaknotification
 
 Package: xinaa15
 Version: 99.0
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: CyPwn
 Depends: firmware (>= 15.0), firmware (<= 15.1.1)
 Filename: debs/分屏依赖xinaa15_99.0.deb
@@ -615,7 +615,7 @@ Name: XinaA15
 
 Package: xyz.cypwn.backgrounderaction15
 Version: 0.1.0
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: CyPwn
 Depends: mobilesubstrate, com.opa334.ccsupport
 Filename: debs/15控制中心后台.deb
@@ -633,7 +633,7 @@ Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1581
 
 Package: xyz.cypwn.cocoatop64
 Version: 2.2.3
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: CyPwn
 Installed-Size: 915
 Depends: firmware (>= 10.0)
@@ -653,7 +653,7 @@ Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/54
 
 Package: xyz.cypwn.powercuff
 Version: 0.1~18
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: CyPwn
 Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.opa334.altlist
 Filename: debs/降低设备功耗powercuff_0.1~18.deb
@@ -671,7 +671,7 @@ Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/602
 
 Package: xyz.cypwn.snapper3
 Version: 1.0k
-Architecture: iphoneos-arm64 iphoneos-arm64
+Architecture: iphoneos-arm iphoneos-arm6464
 Maintainer: CyPwn
 Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix
@@ -690,7 +690,7 @@ Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1312
 
 Package: zip
 Version: 3.0-11
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 1392
 Filename: debs/——zip_3.0-11_砸壳依赖(apptools砸壳备份要装的依赖).deb
