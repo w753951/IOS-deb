@@ -9,7 +9,6 @@ Size: 283
 Section: 分屏类
 Description: 增加了左下角触屏区域大小调整,多屏模式支持正面显示。
 Author: QQ群:659669133
-Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
 Icon: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split@3x.png
 Name: 分屏插件split-view-pro
 Sileodepiction: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/split-view-pro.json
@@ -38,13 +37,12 @@ Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: 台州搬运
 Installed-Size: 2480
-Depends: mobilesubstrate, firmware (>=14.0), preferenceloader, xinaa15
+Depends: preferenceloader, firmware (>= 14.0)
 Filename: debs/分屏zetsu_xina15_1.1.deb
 Size: 1919894
 Section: 分屏类
-Description: Multitasking on iOS15.
+Description: 分屏Zetsu
 Author: 台州搬运
-Depiction: https://repo.cypwn.xyz/depiction/1135
 Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
 Name: 分屏Zetsu (Xina)
 
@@ -60,7 +58,7 @@ Size: 337026
 Section: 分屏类
 Description: 狗哥接手的项目,特别好用 iOS14-iOS15
 Author: c1d3r
-Name: 侧边分屏PullOver Pro
+Name: 分屏PullOver Pro
 
 Package: byg.iosios.net.neverupdat.wechatpurification
 Version: 2.2-3
