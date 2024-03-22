@@ -38,7 +38,7 @@ Architecture: iphoneos-arm
 Maintainer: 台州搬运
 Installed-Size: 2480
 Depends: preferenceloader, firmware (>= 14.0)
-Filename: debs/分屏zetsu_xina15_1.1.deb
+Filename: debs/zetsu_xina15_1.1.deb
 Size: 1919894
 Section: 分屏类
 Description: 分屏Zetsu
