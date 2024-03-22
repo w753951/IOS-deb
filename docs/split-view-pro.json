@@ -45,7 +45,7 @@
 				},
 				{
 					"title": "开发者",
-					"text": "多吃不胖",
+					"text": "qq网名:多吃不胖/qq群659669133",
 					"class": "DepictionTableTextView"
 				},
 				{
@@ -73,16 +73,16 @@
 			"tabname": "更新",
 			"views": [
 				{
-					"title": "开发者很懒",
+					"title": "🗒️🔍📝🧠😕看看日志都说了啥",
 					"useBoldText": true,
 					"useBottomMargin": true,
 					"class": "DepictionSubheaderView"
 				},				
 				{
-					"markdown": "\t\n\u2023 增加了左下角区域触摸调整大小,小分屏可正面平铺",
-					"useSpacing": false,
-					"class": "DepictionMarkdownView"
-				},
+  					"markdown": "增加了左下角区域触摸调整大小，小分屏可正面平铺\n![Split Screen Image](https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG)",
+  					"useSpacing": false,
+  					"class": "DepictionMarkdownView"
+				}
 				{
 					"markdown": "<small style=\"color: #999; margin-top: -8px;\">日志更新于 2024.03.21</small>",
 					"useRawFormat": true,
