@@ -52,7 +52,7 @@ Description: 过充保护，设备充电上限！锁屏不断WiFi，冲冲冲！
 Author: zqbb
 Icon: https://chinesebuilding.club/pic/cydia.png
 Name: 限制充电锁屏不断WiFi-Rootless
-Sponsor: 搬运工
+Sponsor: 台州搬运
 
 Package: byg.iosios.net.neverupdat.wechatpurification
 Version: 2.2-3
@@ -71,7 +71,7 @@ Tag: purpose::extension
 Author: Netskao
 Icon: https://chinesebuilding.club/pic/cydia.png
 Name: 微信净化不更新消失版-Rootless
-Sponsor: 搬运工
+Sponsor: 台州搬运
 
 Package: byg.iosios.net.showtouch-rootless
 Version: 1.0.4-2
@@ -89,7 +89,7 @@ Description: 显示您触摸屏幕的位置
 Author: LonestarX
 Icon: https://chinesebuilding.club/pic/cydia.png
 Name: ShowTouch录屏轨迹-Rootless
-Sponsor: 搬运工
+Sponsor: 台州搬运
 
 Package: com.0xkuj.3dappversionspoofer
 Version: 1.3
@@ -294,7 +294,7 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=pineapplet
 Dev: mika368
 Icon: file:///Library/PreferenceBundles/ptbundle.bundle/pt@2x.png
 Name: 菠萝工具
-Sponsor: thebigboss.org <http://thebigboss.org>
+Sponsor: 台州搬运
 
 Package: com.niceios.nicebarx15
 Version: 1.0.2.3-15
@@ -311,7 +311,7 @@ Section: Tweaks
 Description: 状态栏插件.
 Author: niceios
 Name: NiceBarX(iOS15)
-Sponsor: niceios
+Sponsor: 台州搬运
 
 Package: com.niceios.nicecaller15
 Version: 1.0.0.4-26
@@ -328,7 +328,7 @@ Section: Tweaks
 Description: 通话录音,变声器,背景声音,自动应答,安卓样式拨号键盘,骚扰拦截,窗口电话(Callbar),归属地显示
 Author: NiceiOS
 Name: NiceCaller(iOS15)
-Sponsor: NiceiOS
+Sponsor: 台州搬运
 
 Package: com.niceios.nicehelper
 Version: 4.8-7
@@ -344,7 +344,7 @@ Section: Addons
 Description: nice插件依赖组件.
 Author: niceios
 Name: NiceHelper
-Sponsor: niceios
+Sponsor: 台州搬运
 
 Package: com.opa334.altlist
 Version: 1.0.10
@@ -365,7 +365,7 @@ Author: opa334 <opa334@protonmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Dev: opa334
 Name: AltList
-Sponsor: thebigboss.org <http://thebigboss.org>
+Sponsor: 台州搬运
 
 Package: com.opa334.ccsupport
 Version: 1.3.9
@@ -389,7 +389,7 @@ Author: opa334 <opa334@protonmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 Dev: opa334
 Name: CCSupport
-Sponsor: thebigboss.org <http://thebigboss.org>
+Sponsor: 台州搬运
 
 Package: com.snail.always120
 Version: 1.1.0
