@@ -6,7 +6,7 @@ Installed-Size: 30940
 Depends: preferenceloader, firmware (>= 14.0)
 Filename: debs/com.sunshinesong.split-view-pro_0.0.3-1-47+debug_iphoneos-arm64.deb
 Size: 283
-Section: 系统级
+Section: 分屏类
 Description: 增加了左下角触屏区域大小调整,多屏模式支持正面显示。
 Author: QQ群:659669133
 Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
@@ -16,7 +16,7 @@ Sileodepiction: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/spli
 
 Package: xc.lzsxcl.o2
 Version: 7.0
-Architecture: iphoneos-arm all
+Architecture: iphoneos-arm, iphoneos-arm64
 Maintainer: lzsxcl
 Installed-Size: 30940
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
@@ -25,7 +25,7 @@ Size: 22870300
 MD5sum: 8c269953c4c21ed4954cb7c66ed28822
 SHA1: d6f243a3d3c42dcb9073b756119a3e07e997cd24
 SHA256: 4707263891b583f5464755c46f3998f8c82f89bb3b9f2c6ed49e2a977368f2d3
-Section: 系统级
+Section: 分屏类
 Description: 一步打通应用间的边界，全新美观便捷的分屏新方式。One step bridging the boundaries between applications, creating a new and beautiful and convenient way to split screens.
 Author: lzsxcl
 Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
@@ -549,7 +549,7 @@ Size: 337026
 MD5sum: 5ed8f86e4139d209dc3e397e1058d20e
 SHA1: 9ad54f0fddc747adfa7668eeea62cc6749867bf4
 SHA256: 54194519337cd24d1c0b1e1bdad013e6a43fa7b6736f38fd266fe05152f2fadf
-Section: 系统级
+Section: 分屏类
 Description: A better way to multitask! Fix support for iOS14-iOS15
 Author: c1d3r
 Name: 侧边分屏PullOver Pro
@@ -689,7 +689,7 @@ Size: 1919894
 MD5sum: be4810d24054d9f36794aef6c083e027
 SHA1: 3597494d9badeddd347dc72a43a4824e8780248a
 SHA256: 60d35ca5490006e4b7d158c4e015937f701f4879cb635468f9472a1864976834
-Section: 系统级
+Section: 分屏类
 Description: Multitasking on iOS15.
 Author: Dcsyhi
 Depiction: https://repo.cypwn.xyz/depiction/1135
