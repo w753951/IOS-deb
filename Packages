@@ -3,11 +3,10 @@ Version: 0.0.3-1-47+debug
 Architecture: iphoneos-arm64 iphoneos-arm
 Maintainer: QQ:多吃不胖
 Installed-Size: 283kb
-Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/com.sunshinesong.split-view-pro_0.0.3-1-47+debug_iphoneos-arm64.deb
 Section: Tweaks
 Description: 增加了左下角触屏区域大小调整,多屏模式支持正面显示。
-Author: 多吃不胖
+Author: QQ群:659669133
 Name: 免费的分屏插件split-view-pro
 Sileodepiction: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/split-view-pro.json
 Icon: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split@3x.png
