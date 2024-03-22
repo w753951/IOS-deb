@@ -73,13 +73,13 @@
 			"tabname": "更新",
 			"views": [
 				{
-					"title": "🗒️🔍📝🧠😕看看日志都说了啥",
+					"title": "📱🔍📝🧠😕看看日志都说了啥",
 					"useBoldText": true,
 					"useBottomMargin": true,
 					"class": "DepictionSubheaderView"
 				},				
 				{
-  					"markdown": "增加了左下角区域触摸调整大小，小分屏可正面平铺\n![Split Screen Image](https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG)",
+  					"markdown": "增加了左下角区域触摸调整大小，小分屏可正面平铺\n![查看图片](https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG)",
   					"useSpacing": false,
   					"class": "DepictionMarkdownView"
 				},
