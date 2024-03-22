@@ -79,10 +79,10 @@
 					"class": "DepictionSubheaderView"
 				},				
 				{
-  					"markdown": "增加了左下角区域触摸调整大小，小分屏可正面平铺",
+  					"markdown": "增加了左下角区域触摸调整大小，小分屏可正面平铺\n![Split Screen Image](https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG)",
   					"useSpacing": false,
   					"class": "DepictionMarkdownView"
-				}
+				},
 				{
 					"markdown": "<small style=\"color: #999; margin-top: -8px;\">日志更新于 2024.03.21</small>",
 					"useRawFormat": true,
