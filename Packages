@@ -16,7 +16,7 @@ Sileodepiction: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/spli
 
 Package: xc.lzsxcl.o2
 Version: 7.0
-Architecture: iphoneos-arm, all
+Architecture: iphoneos-arm
 Maintainer: lzsxcl
 Installed-Size: 30940
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
