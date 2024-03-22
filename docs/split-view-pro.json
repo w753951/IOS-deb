@@ -1,10 +1,10 @@
 {
   "minVersion": "0.1",
-  "headerImage": "https://example.com/path/to/your/gradient-background.jpg", 
+  "headerImage": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split-bg.jpg",
   "tintColor": "#3784d2",
   "tabs": [
     {
-      "tabname": "预览",
+      "tabname": "预览介绍",
       "views": [
         {
           "itemCornerRadius": 6,
@@ -12,14 +12,14 @@
           "screenshots": [
             {
               "accessibilityText": "Featured Animes",
-              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split1.PNG", 
-              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split1.PNG" 
+              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split1.PNG",
+              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split1.PNG"
             },
             {
               "accessibilityText": "Recently Viewed",
-              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG", 
-              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG" 
-            },
+              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG",
+              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG"
+            }
           ],
           "ipad": {
             "itemCornerRadius": 9,
@@ -27,9 +27,9 @@
             "screenshots": [
               {
                 "accessibilityText": "Featured Animes",
-                "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG", 
-                "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG" 
-              },
+                "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG",
+                "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG"
+              }
             ],
             "class": "DepictionScreenshotView"
           },
@@ -69,7 +69,7 @@
       "class": "DepictionStackView"
     },
     {
-      "tabname": "更新",
+      "tabname": "更新日志",
       "views": [
         {
           "title": "📱🔍📝🧠😕看看日志都说了啥",
@@ -92,5 +92,5 @@
     }
   ],
   "class": "DepictionTabView",
-  "style": "background: linear-gradient(to right, blue, red, orange);"
+  "style": "body { background: linear-gradient(to right, blue, red, orange); }"
 }
