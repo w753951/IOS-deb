@@ -1,15 +1,37 @@
 Package: com.sunshinesong.split-view-pro
 Version: 0.0.3-1-47+debug
-Architecture: iphoneos-arm64 iphoneos-arm
+Architecture: iphoneos-arm
 Maintainer: QQ:多吃不胖
-Installed-Size: 283kb
+Installed-Size: 30940
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
 Filename: debs/com.sunshinesong.split-view-pro_0.0.3-1-47+debug_iphoneos-arm64.deb
-Section: 注入SpringBoard
+Size: 283
+Section: Tweaks
 Description: 增加了左下角触屏区域大小调整,多屏模式支持正面显示。
 Author: QQ群:659669133
+Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
+Icon: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split@3x.png
 Name: 分屏插件split-view-pro
 Sileodepiction: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/split-view-pro.json
-Icon: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split@3x.png
+
+Package: xc.lzsxcl.o2
+Version: 7.0
+Architecture: iphoneos-arm
+Maintainer: lzsxcl
+Installed-Size: 30940
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/xc.lzsxcl.o2_7.0_iphoneos-arm.deb
+Size: 22870300
+MD5sum: 8c269953c4c21ed4954cb7c66ed28822
+SHA1: d6f243a3d3c42dcb9073b756119a3e07e997cd24
+SHA256: 4707263891b583f5464755c46f3998f8c82f89bb3b9f2c6ed49e2a977368f2d3
+Section: Tweaks
+Description: 一步打通应用间的边界，全新美观便捷的分屏新方式。One step bridging the boundaries between applications, creating a new and beautiful and convenient way to split screens.
+Author: lzsxcl
+Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
+Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
+Name: o2 Pro分屏旧版(越狱界人人喊打的家伙)
+Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
 
 Package: byg.iosios.net.neverupdat.wechatpurification
 Version: 2.2-3
@@ -566,25 +588,6 @@ Section: TR - TR Yama
 Description: Bildirimleriniz dil gelsin. İsterseniz belirlediğiniz özel mesajlar, isterseniz gelen bildirimler, üstelik kendi dilinde sesli olarak okunacak.
 Author: merdok
 Name: 语音读通知(语音播报)speaknotification
-
-Package: xc.lzsxcl.o2
-Version: 7.0
-Architecture: iphoneos-arm
-Maintainer: lzsxcl
-Installed-Size: 30940
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Filename: debs/xc.lzsxcl.o2_7.0_iphoneos-arm.deb
-Size: 22870300
-MD5sum: 8c269953c4c21ed4954cb7c66ed28822
-SHA1: d6f243a3d3c42dcb9073b756119a3e07e997cd24
-SHA256: 4707263891b583f5464755c46f3998f8c82f89bb3b9f2c6ed49e2a977368f2d3
-Section: Tweaks
-Description: 一步打通应用间的边界，全新美观便捷的分屏新方式。One step bridging the boundaries between applications, creating a new and beautiful and convenient way to split screens.
-Author: lzsxcl
-Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
-Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
-Name: o2 Pro分屏旧版(越狱界人人喊打的家伙)
-Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
 
 Package: xinaa15
 Version: 99.0
