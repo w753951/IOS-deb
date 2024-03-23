@@ -7,7 +7,7 @@ Depends: mobilesubstrate
 Filename: debs/preferenceloader_2.2.6-1_iphoneos-arm64.deb
 Size: 435
 Section: 依赖包
-Description: 安装后设置页面显示插件项目。多巴胺使用.
+Description: 安装后设置页面显示插件项目。多巴胺用户越狱后安装插件后在设置没有插件设置项，导致强制重启有没有？别担心.安装这个可适配.
 Author: Dhinak G
 Name: preferenceloader
 
