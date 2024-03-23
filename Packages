@@ -1,7 +1,7 @@
 Package: preferenceloader
 Version: 2.2.6-1
 Architecture: iphoneos-arm
-Maintainer: 台州搬运
+Maintainer: Dhinak G
 Installed-Size: 435
 Depends: mobilesubstrate
 Filename: debs/preferenceloader_2.2.6-1_iphoneos-arm64.deb
