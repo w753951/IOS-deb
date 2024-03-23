@@ -1,3 +1,16 @@
+Package: preferenceloader
+Version: 2.2.6-1
+Architecture: iphoneos-arm
+Maintainer: 台州搬运
+Installed-Size: 435
+Depends: mobilesubstrate
+Filename: debs/preferenceloader_2.2.6-1_iphoneos-arm64.deb
+Size: 435
+Section: 台州搬运
+Description: 安装后设置页面显示插件项目。多巴胺使用.
+Author: 台州搬运
+Name: preferenceloader
+
 Package: com.sunshinesong.split-view-pro
 Version: 0.0.3-1-47+debug
 Architecture: iphoneos-arm
