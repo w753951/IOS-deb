@@ -12,12 +12,12 @@ Author: Dhinak G
 Name: preferenceloader
 
 Package: com.sunshinesong.split-view-pro
-Version: 0.0.3-1-47+debug
+Version: 0.0.3-1-418+debug
 Architecture: iphoneos-arm
 Maintainer: QQ:多吃不胖
 Installed-Size: 30940
 Depends: preferenceloader, firmware (>= 14.0)
-Filename: debs/com.sunshinesong.split-view-pro_0.0.3-1-47+debug_iphoneos-arm64.deb
+Filename: debs/com.sunshinesong.split-view-pro_0.0.3-1-418+debug_iphoneos-arm64.deb
 Size: 283
 Section: 分屏类
 Description: 增加了左下角触屏区域大小调整,多屏模式支持正面显示。
