@@ -12,6 +12,16 @@
           "screenshots": [
             {
               "accessibilityText": "Featured Animes",
+              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3174.PNG",
+              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3174.PNG"
+            },
+            {
+              "accessibilityText": "Featured Animes",
+              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3173.PNG",
+              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3173.PNG"
+            },
+            {
+              "accessibilityText": "Featured Animes",
               "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split1.PNG",
               "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split1.PNG"
             },
@@ -78,12 +88,17 @@
           "class": "DepictionSubheaderView"
         },
         {
+          "markdown": "界面重新设计了,自己体验.\n![查看图片](https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3175.PNG)",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
           "markdown": "增加了左下角区域触摸调整大小，小分屏可正面平铺\n![查看图片](https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3150.PNG)",
           "useSpacing": false,
           "class": "DepictionMarkdownView"
         },
         {
-          "markdown": "<small style=\"color: #999; margin-top: -8px;\">日志更新于 2024.03.21</small>",
+          "markdown": "<small style=\"color: #999; margin-top: -8px;\">日志更新于 2024.03.24</small>",
           "useRawFormat": true,
           "class": "DepictionMarkdownView"
         }
