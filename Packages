@@ -20,7 +20,7 @@ Depends: preferenceloader, firmware (>= 14.0)
 Filename: debs/com.sunshinesong.split-view-pro_0.0.3-1-418+debug_iphoneos-arm64.deb
 Size: 283
 Section: 分屏类
-Description: 新版需要搭配BackgrounderAction/ 5 CCSupport。
+Description: 新版需要搭配BackgrounderAction15和CCSupport使用，控制中心真后台。
 Author: QQ群:659669133
 Icon: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split@3x.png
 Name: 分屏split-view-pro
