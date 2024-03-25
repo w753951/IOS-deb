@@ -16,7 +16,7 @@ Name: SmartVPN自动开关VPN
 Package: com.zyb.smartvpn
 Priority: optional
 Depends: preferenceloader
-Filename: debs/SmartVPN1.2.8_tz.deb
+Filename: debs/smartvpn_1.2.8_jichengyilai_iphoneos-arm.deb
 Version: 1.2.8
 Architecture: iphoneos-arm
 Description: 已集成依赖和删除两个dylib,我xina1自用,不保证你们能用,/n为特殊应用程序列表自动启动/关闭VPN
