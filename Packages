@@ -20,8 +20,8 @@ Filename: debs/smartvpn_1.2.8_jichengyilai_iphoneos-arm.deb
 Version: 1.2.8
 Architecture: iphoneos-arm
 Description: 已集成依赖和删除两个dylib,我xina1自用,不保证你们能用,/n为特殊应用程序列表自动启动/关闭VPN
-Sponsor: thebigboss
-Maintainer: BigBoss
+Sponsor: 台州打包集成
+Maintainer: 台州打包集成
 Author: zyb
 Section: 工具类
 Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
