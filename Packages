@@ -1,3 +1,19 @@
+Name: SmartVPN自动开关VPN
+Package: com.zyb.smartvpn
+Priority: optional
+Depends: preferenceloader
+Version: 1.2.8
+Architecture: iphoneos-arm
+Description: 已集成依赖和删除两个dylib,我xina1自用,不保证你们能用,/n为特殊应用程序列表自动启动/关闭VPN
+Sponsor: thebigboss
+Maintainer: BigBoss
+Author: zyb
+Section: 工具类
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Installed-Size: 545
+dev: zyb
+Sileodepiction: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/SmartVPN.json
+
 Package: preferenceloader
 Version: 2.2.6-1
 Architecture: iphoneos-arm
