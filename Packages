@@ -394,6 +394,24 @@ Icon: file:///Library/PreferenceBundles/ptbundle.bundle/pt@2x.png
 Name: 菠萝工具(迷你通知,桌面歌词等ios15用)
 Sponsor: 台州搬运
 
+Package: com.mika.pineappletools
+Version: 1.0.9-1k
+Architecture: iphoneos-arm
+Maintainer: BigBoss
+Installed-Size: 5556
+Depends: preferenceloader
+Filename: debs/boluominitongzhi.deb
+Size: 904668
+Section: 系统级
+Description: 一些工具
+Tag: purpose::extension
+Author: Mika <mika368@163.com>
+Depiction: 菠萝工具(迷你通知提取)
+Dev: mika368
+Icon: file:///Library/PreferenceBundles/ptbundle.bundle/pt@2x.png
+Name: 菠萝工具(迷你通知提取)
+Sponsor: 台州搬运
+
 Package: com.niceios.nicebarx15
 Version: 1.0.2.3-15
 Architecture: iphoneos-arm
