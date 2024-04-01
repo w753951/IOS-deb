@@ -27,8 +27,8 @@
             },
             {
               "accessibilityText": "Recently Viewed",
-              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3351.JPG",
-              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3351.JPG"
+              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3351.PNG",
+              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3351.PNG"
             }
           ],
           "ipad": {
@@ -89,16 +89,6 @@
         },
         {
           "markdown": "适配了横屏.\n![查看图片](https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3354.PNG)",
-          "useSpacing": false,
-          "class": "DepictionMarkdownView"
-        },
-        {
-          "markdown": "界面重新设计了,自己体验.\n![查看图片](https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3175.PNG)",
-          "useSpacing": false,
-          "class": "DepictionMarkdownView"
-        },
-        {
-          "markdown": "增加了左下角区域触摸调整大小，小分屏可正面平铺\n![查看图片](https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3150.PNG)",
           "useSpacing": false,
           "class": "DepictionMarkdownView"
         },
