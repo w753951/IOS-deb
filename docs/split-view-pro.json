@@ -12,23 +12,23 @@
           "screenshots": [
             {
               "accessibilityText": "Featured Animes",
-              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3174.PNG",
-              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3174.PNG"
+              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3350.PNG",
+              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3350.PNG"
             },
             {
               "accessibilityText": "Featured Animes",
-              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3173.PNG",
-              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3173.PNG"
+              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3351.PNG",
+              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3351.PNG"
             },
             {
               "accessibilityText": "Featured Animes",
-              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split1.PNG",
-              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split1.PNG"
+              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/3352.PNG",
+              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/3352.PNG"
             },
             {
               "accessibilityText": "Recently Viewed",
-              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG",
-              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/split2.JPG"
+              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/3353.JPG",
+              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/3353.JPG"
             }
           ],
           "ipad": {
@@ -88,6 +88,11 @@
           "class": "DepictionSubheaderView"
         },
         {
+          "markdown": "适配了横屏.\n![查看图片](https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3354.PNG)",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
           "markdown": "界面重新设计了,自己体验.\n![查看图片](https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3175.PNG)",
           "useSpacing": false,
           "class": "DepictionMarkdownView"
@@ -98,7 +103,7 @@
           "class": "DepictionMarkdownView"
         },
         {
-          "markdown": "<small style=\"color: #999; margin-top: -8px;\">日志更新于 2024.03.24</small>",
+          "markdown": "<small style=\"color: #999; margin-top: -8px;\">日志更新于 2024.04.02</small>",
           "useRawFormat": true,
           "class": "DepictionMarkdownView"
         }
