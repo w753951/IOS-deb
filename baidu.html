@@ -3,63 +3,32 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-    <!-- 请将下面的 '你的密钥' 替换为您的百度地图 API 密钥 -->
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=esb1MHnMVyQWiiU45K9N7WVYD6wW5JDA"></script>
-    <script type="text/javascript" src="http://api.map.baidu.com/library/Heatmap/2.0/src/Heatmap_min.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=esb1MHnMVyQWiiU45K9N7WVYD6wW5JDA"></script> 
+    <script type="text/javascript" src="http://api.map.baidu.com/library/Heatmap/2.0/src/Heatmap_min.js"></script> 
+
     <title>热力图 功能示例</title>
+
     <style type="text/css">
-        html, body, #container {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-        #container {
-            width: 78%;
-            float: left;
-            border-right: 2px solid #bcbcbc;
-        }
-        #r-result {
-            height: 100%;
-            width: 20%;
-            float: left;
-        }
-        .btn-container {
-            margin: 20px;
-        }
-        fieldset {
-            border: 1px solid;
-            border-radius: 3px;
-        }
-        fieldset label {
-            font-size: 14px;
-            line-height: 30px;
-        }
-        .btn {
-            color: #333;
-            background-color: #fff;
-            display: inline-block;
-            padding: 6px 12px;
-            font-size: 14px;
-            font-weight: normal;
-            line-height: 1.428571429;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            margin-top: 5px;
-            margin-bottom: 5px;
-        }
-        .btn:hover {
-            color: #333;
-            background-color: #ebebeb;
-            border-color: #adadad;
-        }
-        .text-primary {
+        ul,li{list-style: none;margin:0;padding: 0}
+        html{height:100%}
+        body{height:100%;margin:0px;padding:0px}
+        #container{height:100%;width:78%;float:left;border-right:2px solid #bcbcbc;}
+        #r-result{height:100%;width:20%;float:left;}
+        .btn-container{margin:20px;}
+        fieldset{border: 1px solid;border-radius: 3px;}
+        fieldset label{font-size: 14px; line-height: 30px;}
+        .btn{
+            color: #333;background-color: #fff;display: inline-block;padding: 6px 12px;font-size: 14px;
+            font-weight: normal;line-height: 1.428571429;border: 1px solid #ccc;border-radius: 4px;
+            margin-top: 5px;margin-bottom: 5px;}   
+        .btn:hover{color: #333;background-color: #ebebeb;border-color: #adadad;}
+        .text-primary{
             font-weight: bold;
         }
-        .color-list li {
-            font-size: 14px;
-            line-height: 30px;
-        }
-    </style>
+        textarea{border: 1px solid #ccc;border-radius: 4px;}
+        textarea:focus{border-color: #66afe9;outline: 0;box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);}
+        .color-list li{font-size: 14px; line-height: 30px;}
+    </style>    
 </head>
 <body>
 <div id="container"></div>
@@ -67,77 +36,70 @@
     <div class="btn-container">
         <fieldset>
             <legend>热力图设置区域</legend>
-            <label for="radius">设置热力图半径0-100</label>
-            <input type="range" id="radius" max="100" style="width:150px" min="1" value="20" onchange="setRadius(this.value)">
-            <span id="radius-result" class="text-primary">20</span><br>
-            <label for="opacity">设置热力图透明度0-100</label>
-            <input type="range" id="opacity" max="100" style="width:150px" min="1" value="80" onchange="setOpacity(this.value)">
-            <span id="opacity-result" class="text-primary">80</span><br>
+            <label>设置热力图半径0-100</label>
+            <input type="range" max="100" style = "width:150px" min="1" value="20" onchange="setRadius(this.value)">
+            <span id="radius-result" class="text-primary">20</span>
+            <br/>
+            <label>设置热力图透明度0-100</label>
+            <input type="range" max="100" style = "width:150px" min="1" value="80" onchange="setOpacity(this.value)">
+            <span id="opacity-result" class="text-primary">80</span>
+            <br/>
             <label>设置热力图渐变区间</label>
             <ul class="color-list">
-                <li>起始颜色: <input data-key="0.1" type="color" value="#66FF00" onchange="setGradient()"></li>
-                <li>中间颜色: <input data-key="0.5" type="color" value="#FFAA00" onchange="setGradient()"></li>
-                <li>结束颜色: <input data-key="1.0" type="color" value="#FF0000" onchange="setGradient()"></li>
+                <li>起始颜色: <input data-key="0.1" type="color" value="#66FF00" onchange="setGradient()"/></li>
+                <li>中间颜色: <input  data-key="0.5" type="color" value="#FFAA00" onchange="setGradient()"/></li>
+                <li>结束颜色: <input data-key="1.0" type="color" value="#FF0000" onchange="setGradient()"/></li>
             </ul>
-            <span style="font-size:14px;">显示热力图:</span>
-            <input type="checkbox" id="toggle-heatmap" onclick="toggle()" checked><br>
+            <span style="font-size:14px;">显示热力图:</span><input type="checkbox"  onclick="toggle();" checked="checked" />
         </fieldset>
     </div>
 </div>
 <script type="text/javascript">
-    // 创建地图实例
-    var map = new BMap.Map("container");
-    var point = new BMap.Point(121.135, 28.001); // 台州市的中心点坐标
-    map.centerAndZoom(point, 12); // 初始化地图
+    var map = new BMap.Map("container");          // 创建地图实例
+    // 设置台州市的中心点坐标
+    var point = new BMap.Point(28.661378, 121.428281);
+    map.centerAndZoom(point, 12);             // 初始化地图，设置中心点坐标和地图级别
     map.enableScrollWheelZoom(); // 允许滚轮缩放
 
-    // 定义数据点
+    var heatmapOverlay = new BMapLib.HeatmapOverlay({"radius":20});
+    map.addOverlay(heatmapOverlay);
+
+    // 模拟的台州市热力图数据点
     var points = [
-        // ... 此处省略了具体数据点，您需要将其替换为实际的数据点数组 ...
+        {"count": 300, "lat": 28.66, "lng": 121.43}, // 示例数据点1
+        {"count": 200, "lat": 28.65, "lng": 121.44}, // 示例数据点2
+        // 根据需要添加更多的数据点...
     ];
 
-    // 创建热力图覆盖物
-    var heatmapOverlay = new BMapLib.HeatmapOverlay({radius: 20});
-    map.addOverlay(heatmapOverlay);
-    heatmapOverlay.setDataSet({data: points, max: 1000});
+    heatmapOverlay.setDataSet({data:points,max:1000});
 
-    // 设置热力图半径
-    function setRadius(radius) {
-        document.getElementById('radius-result').innerHTML = radius;
-        heatmapOverlay.setOptions({radius: radius});
+    function setRadius(radius){
+        document.getElementById("radius-result").innerHTML = radius;
+        heatmapOverlay.setOptions({"radius":radius});
     }
 
-    // 设置热力图透明度
-    function setOpacity(opacity) {
-        document.getElementById('opacity-result').innerHTML = opacity;
-        heatmapOverlay.setOptions({opacity: opacity});
+    function setOpacity(opacity){
+        document.getElementById("opacity-result").innerHTML = opacity;
+        heatmapOverlay.setOptions({"opacity":opacity/100});
     }
 
-    // 切换热力图显示
-    function toggle() {
+    function toggle(){
         heatmapOverlay.toggle();
     }
 
-    // 设置热力图渐变区间
-    function setGradient() {
+    function setGradient(){
         var gradient = {};
-        var colors = document.querySelectorAll('input[type="color"]');
-        colors = [].slice.call(colors, 0);
-        colors.forEach(function(ele) {
-            gradient[ele.getAttribute('data-key')] = ele.value;
+        var colors = document.querySelectorAll("input[type='color']");
+        colors = [].slice.call(colors,0);
+        colors.forEach(function(ele){
+            gradient[ele.getAttribute("data-key")] = ele.value; 
         });
-        heatmapOverlay.setOptions({gradient: gradient});
+        heatmapOverlay.setOptions({"gradient":gradient});
     }
 
-    // 检查浏览器是否支持canvas
-    function isSupportCanvas() {
+    function isSupportCanvas(){
         var elem = document.createElement('canvas');
         return !!(elem.getContext && elem.getContext('2d'));
-    }
-
-    // 如果不支持canvas，提示用户
-    if (!isSupportCanvas()) {
-        alert('热力图目前只支持有canvas支持的浏览器,您所使用的浏览器不能使用热力图功能~');
     }
 </script>
 </body>
