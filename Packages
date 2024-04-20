@@ -13,6 +13,7 @@ Section: 工具类
 Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15
 Installed-Size: 13646
 dev: taizhou
+Icon: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/taizhou@3x.jpg
 Sileodepiction: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/taizhou.json
 
 Package: cn.llld.copy1
