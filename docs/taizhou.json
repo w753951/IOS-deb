@@ -16,6 +16,16 @@
               "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3644.JPG"
             }
           ],
+         "ipad": {
+            "itemCornerRadius": 9,
+            "itemSize": "{350, 550.8266666666667}",
+            "screenshots": [
+              {
+                "accessibilityText": "Featured Animes",
+                "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3644.JPG",
+                "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3644.JPG"
+              }
+            ],
             "class": "DepictionScreenshotView"
           },
           "class": "DepictionScreenshotsView"
