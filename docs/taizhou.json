@@ -44,7 +44,7 @@
         },
         {
           "title": "兼容",
-          "text": "自用15.0",
+          "text": "支持xina1代15.0，注意多巴胺不兼容",
           "class": "DepictionTableTextView"
         },
         {
