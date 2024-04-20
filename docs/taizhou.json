@@ -1,0 +1,91 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3647.JPG",
+  "tintColor": "#3784d2",
+  "tabs": [
+    {
+      "tabname": "插件介绍",
+      "views": [
+        {
+          "itemCornerRadius": 6,
+          "itemSize": "{160, 275.41333333333336}",
+          "screenshots": [
+            {
+              "accessibilityText": "Featured Animes",
+              "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3644.JPG",
+              "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3644.JPG"
+            }
+          ],
+          "ipad": {
+            "itemCornerRadius": 9,
+            "itemSize": "{350, 550.8266666666667}",
+            "screenshots": [
+              {
+                "accessibilityText": "Featured Animes",
+                "url": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3645.JPG",
+                "fullSizeURL": "https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3645.JPG"
+              }
+            ],
+            "class": "DepictionScreenshotView"
+          },
+          "class": "DepictionScreenshotsView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## 介绍\n注意:该插件集合版本xina1自用,去掉了部份dylib依赖进程,自用正常,其它用户不要使用。"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "开发者",
+          "text": "自己备用,不要安装",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "兼容",
+          "text": "8.0 - 16.4.1",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "",
+          "text": "",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "spacing": 16,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "更新日志",
+      "views": [
+        {
+          "title": "📱🔍📝🧠😕看看日志都说了啥",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "该版本xina1自用,不建议xina1外的用户使用\n![查看图片](https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/IMG_3644.JPG)",
+          "useSpacing": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "markdown": "<small style=\"color: #999; margin-top: -8px;\">日志更新于 2024.04.20</small>",
+          "useRawFormat": true,
+          "class": "DepictionMarkdownView"
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView",
+  "style": "body { background: linear-gradient(to right, blue, red, orange); }"
+}
