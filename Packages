@@ -1,3 +1,20 @@
+Name: 自用xina1插件合集备份,一键恢复用(自用,勿下)
+Package: com.zhejiang.taizhou
+Priority: optional
+Depends: preferenceloader
+Filename: debs/taizhouchajianheji240420-1.deb
+Version: 1.0-1
+Architecture: iphoneos-arm
+Description: 集成了多个插件备份\n其它用户不要安装,\n个人xina1自用,其它用户安装,白苹果自己负责.
+Sponsor: 台州打包集成
+Maintainer: 台州打包集成
+Author: taizhou
+Section: 工具类
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15
+Installed-Size: 13646
+dev: taizhou
+Sileodepiction: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/taizhou.json
+
 Package: cn.llld.copy1
 Name: Copy-text-rootful(复制文本内容)
 Description: 短按复制文本内容，现处于测试阶段等后续更新支持更多,支持应用就不一一列举了，设置，电话，短信，appstore，QQ，贴吧等***
