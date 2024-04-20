@@ -3,7 +3,7 @@ Package: com.zhejiang.taizhou
 Priority: optional
 Depends: preferenceloader
 Filename: debs/taizhouchajianheji240420-1.deb
-Version: 1.0-1
+Version: 1.1
 Architecture: iphoneos-arm
 Description: 集成了多个插件打包备份,其它用户不要安装,其它用户不要安装,其它用户不要安装,\n 个人xina1自用,其它用户安装,白苹果自己负责.\n 文件夹内放入了statue插件信息文件,需要复制到var/jb/dpkg下
 Sponsor: 台州打包集成
