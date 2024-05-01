@@ -84,13 +84,13 @@ Author: Dhinak G
 Name: preferenceloader
 
 Package: com.sunshinesong.split-view-pro
-Version: 1.1.0-2
+Version: 1.1.2
 Architecture: iphoneos-arm
 Maintainer: QQ:多吃不胖
-Installed-Size: 499
+Installed-Size: 4766
 Depends: preferenceloader, firmware (>= 14.0)
-Filename: debs/com.sunshinesong.split-view-pro_1.1.0-1_iphoneos-arm64.deb
-Size: 499
+Filename: debs/com.sunshinesong.split-view-pro_1.1.2_iphoneos-arm64.deb
+Size: 4766
 Section: 分屏类
 Description: 新版需要搭配BackgrounderAction15和CCSupport使用，控制中心真后台。
 Author: QQ群:659669133
