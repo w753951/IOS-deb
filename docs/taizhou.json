@@ -32,7 +32,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "## 介绍\n注意:该插件集合版本xina1自用,去掉了部份dylib依赖进程,自用正常,其它用户不要使用。"
+          "markdown": "## 介绍Themes直接调挂载,方便主题直接调用其它路径的文件,节省复制主题的时间...需要手动替换staus文件到var/jb/dpkg...\n注意:该插件集合版本xina1自用,去掉了部份dylib依赖进程,自用正常,其它用户不要使用。"
         },
         {
           "class": "DepictionSeparatorView"
@@ -78,7 +78,7 @@
           "class": "DepictionMarkdownView"
         },
         {
-          "markdown": "<small style=\"color: #999; margin-top: -8px;\">日志更新于 2024.04.20</small>",
+          "markdown": "<small style=\"color: #999; margin-top: -8px;\">日志更新于 2024.05.01</small>",
           "useRawFormat": true,
           "class": "DepictionMarkdownView"
         }
