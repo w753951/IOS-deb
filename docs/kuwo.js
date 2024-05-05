@@ -3,8 +3,8 @@
 #!name = 酷我音乐
 #!desc = 〔 酷我音乐&酷我畅听 〕全功能破解
 #!author = 影子
-#!openUrl = https://？
-#!homepage = https://？
+#!openUrl = https://
+#!homepage = https://
 #!icon = https://repo.rengongzhineng.live/docs/images/kuwo.png
 #!date = 2024-05-05
 
