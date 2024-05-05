@@ -54,7 +54,7 @@ Icon: https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/siriplu
 Description: 已经集成依赖Comet和Orion Runtime,我xina1自用备份,不保证其它用户能正常,SiriPlus是用ChatGPT或Gemini取代Siri的一个调整，通过最强大的大型语言模型为用户提供增强的功能、广泛的知识和个性化帮助。
 
 Name: SmartVPN自动开关VPN
-Package: com.zyb.smartvpn
+Package: com.b4db1r3.smartvpn
 Priority: optional
 Depends: preferenceloader
 Filename: debs/smartvpn_2.1_iphoneos-arm64.deb
@@ -63,7 +63,7 @@ Architecture: iphoneos-arm
 Description: 去掉了强制依赖安装,整合了控制中心按钮,\n为特殊应用程序列表自动启动/关闭VPN
 Sponsor: 台州打包集成
 Maintainer: 台州打包集成
-Author: zyb
+Author: b4db1r3
 Section: 工具类
 Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
 Installed-Size: 545
