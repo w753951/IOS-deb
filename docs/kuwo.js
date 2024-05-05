@@ -5,7 +5,7 @@
 #!author = 影子
 #!openUrl = https://？
 #!homepage = https://？
-#!icon = https://repo.rengongzhineng.live/docs/images/fyxf.png
+#!icon = https://repo.rengongzhineng.live/docs/images/kuwo.png
 #!date = 2024-05-05
 
 
