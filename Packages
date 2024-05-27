@@ -2,8 +2,8 @@ Name: 自用xina1插件合集备份,一键恢复用(自用,勿下)
 Package: com.zhejiang.taizhou
 Priority: optional
 Depends: preferenceloader
-Filename: debs/com.zhejiang.taizhou_1.1-1_iphoneos-arm.deb
-Version: 1.1-1
+Filename: debs/ghost-taizhou-240527.deb
+Version: 1.2
 Architecture: iphoneos-arm
 Description: Themes直接调挂载,方便主题直接调用其它路径的文件,节省复制主题的时间...需要手动替换staus文件到var/jb/dpkg...\n集成了多个插件打包备份,其它用户不要安装,其它用户不要安装,其它用户不要安装,\n 个人xina1自用,其它用户安装,白苹果自己负责.\n 文件夹内放入了statue插件信息文件,需要复制到var/jb/dpkg下
 Sponsor: 台州打包集成
