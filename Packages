@@ -117,18 +117,18 @@ Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
 Name: o2 Pro分屏旧版(越狱界人人喊打的家伙)
 Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
 
-Package: xyz.cypwn.zetsuxina15
-Version: 1.1
+Package: jp.dcsyhi.zetsu
+Version: 1.6
 Architecture: iphoneos-arm
 Maintainer: 台州搬运
-Installed-Size: 2480
+Installed-Size: 11989
 Depends: preferenceloader, firmware (>= 14.0)
-Filename: debs/zetsu_xina15_1.1.deb
+Filename: debs/jp.dcsyhi.zetsu_1.6.1_iphoneos-arm64.deb
 Size: 1919894
 Section: 分屏类
 Description: 分屏
 Author: 台州搬运
-Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
+Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
 Name: 分屏Zetsu (Xina)
 
 Package: netskao.pulloverpro
