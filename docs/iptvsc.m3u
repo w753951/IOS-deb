@@ -1,0 +1,10 @@
+#EXTINF:-1 tvg-name="浙江民生6频道" tvg-id="368844" tvg-country="浙江" tvg-language="中文" tvg-logo="https://epg.pw/media/images/channel/2022/05/30/large/20220530221028154749_27.jpg" group-title="电视台",浙江民生6频道
+https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
+#EXTINF:-1 tvg-name="斗鱼(温柚)" tvg-id="368844" tvg-country="斗鱼" tvg-language="中文" tvg-logo="https://raw.githubusercontent.com/w753951/IOS-deb/main/docs/images/douyu.jpg" group-title="斗鱼",斗鱼(温柚)
+https://epg.112114.xyz/douyu/5910850
+#EXTINF:-1 tvg-name="台州新聞綜合" tvg-id="" tvg-country="中國大陸" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2022/11/01/large/20221101020712299758_11.jpg" group-title="新聞",[HD]漳州新闻综合
+https://stream1.freetv.fun/zhang-zhou-xin-wen-zong-he-1.m3u8
+#EXTINF:-1 tvg-name="台州新聞綜合" tvg-id="" tvg-country="中國大陸" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2022/11/01/large/20221101020712299758_11.jpg" group-title="新聞",[BD]鄂州新闻综合
+https://stream1.freetv.fun/e-zhou-xin-wen-zong-he-1.m3u8
+#EXTINF:-1 tvg-name="CCTV13" tvg-id="" tvg-country="中國大陸" tvg-language="國語" tvg-logo="" group-title="新聞",[BD]CCTV13新闻台
+http://221.5.12.130:2223/hls/65/index.m3u8
