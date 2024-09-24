@@ -1,4 +1,3 @@
-#EXTM3U x-tvg-url="https://epg.pw/xmltv/epg_lite.xml"
 #EXTINF:-1 tvg-name="CCTV13新闻台" tvg-id="368844" tvg-country="中央台" tvg-language="中文" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720091704389193_97.png" group-title="电视台",CCTV13新闻台
 http://171.108.239.11:8181/tsfile/live/1039_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-name="CCTV13新闻台" tvg-id="368844" tvg-country="中央台" tvg-language="中文" tvg-logo="https://epg.pw/media/images/channel/2023/07/20/large/20230720091704389193_97.png" group-title="电视台",CCTV13新闻台
@@ -11,37 +10,5 @@ https://epg.112114.xyz/douyu/5910850
 https://stream1.freetv.fun/zhang-zhou-xin-wen-zong-he-1.m3u8
 #EXTINF:-1 tvg-name="台州新聞綜合" tvg-id="" tvg-country="中國大陸" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2022/11/01/large/20221101020712299758_11.jpg" group-title="新聞",[BD]鄂州新闻综合
 https://stream1.freetv.fun/e-zhou-xin-wen-zong-he-1.m3u8
-#EXTINF:-1 tvg-name="台州新聞綜合" tvg-id="" tvg-country="中國大陸" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2022/11/01/large/20221101020712299758_11.jpg" group-title="新聞",[BD]梧州新闻综合
-https://stream1.freetv.fun/wu-zhou-xin-wen-zong-he-1.m3u8
-#EXTINF:-1 tvg-name="台視HD" tvg-id="368558" tvg-country="台灣" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724092817835507_62.png" group-title="綜合",[HD]台视
-rtmp://220.130.201.73/sat/tv071
-#EXTINF:-1 tvg-name="台視HD" tvg-id="368558" tvg-country="台灣" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724092817835507_62.png" group-title="綜合",[HD]台视
-rtmp://f13h.mine.nu/sat/tv071
-#EXTINF:-1 tvg-name="台視新聞" tvg-id="368814" tvg-country="台灣" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724092903588198_34.png" group-title="新聞",[BD]台视新闻
-https://stream1.freetv.fun/tai-shi-xin-wen-18.m3u8
-#EXTINF:-1 tvg-name="台視新聞" tvg-id="368814" tvg-country="台灣" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724092903588198_34.png" group-title="新聞",[BD]台视新闻台
-https://stream1.freetv.fun/tai-shi-xin-wen-1.m3u8
-#EXTINF:-1 tvg-name="台視新聞" tvg-id="368814" tvg-country="台灣" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724092903588198_34.png" group-title="新聞",[BD]台视新闻台
-https://stream1.freetv.fun/tai-shi-xin-wen-2.m3u8
-#EXTINF:-1 tvg-name="台視新聞" tvg-id="368814" tvg-country="台灣" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724092903588198_34.png" group-title="新聞",[BD]台视新闻台
-https://stream1.freetv.fun/tai-shi-xin-wen-3.m3u8
-#EXTINF:-1 tvg-name="台視新聞" tvg-id="368814" tvg-country="台灣" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724092903588198_34.png" group-title="新聞",[BD]台视新闻
-https://stream1.freetv.fun/tai-shi-xin-wen-4.m3u8
-#EXTINF:-1 tvg-name="台視新聞" tvg-id="368814" tvg-country="台灣" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724092903588198_34.png" group-title="新聞",[BD]台视新闻
-https://stream1.freetv.fun/tai-shi-xin-wen-5.m3u8
-#EXTINF:-1 tvg-name="台視新聞" tvg-id="368814" tvg-country="台灣" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724092903588198_34.png" group-title="新聞",[BD]台视新闻
-https://stream1.freetv.fun/tai-shi-xin-wen-6.m3u8
-#EXTINF:-1 tvg-name="台視新聞" tvg-id="368814" tvg-country="台灣" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724092903588198_34.png" group-title="新聞",[BD]台视新闻 hd
-https://stream1.freetv.fun/tai-shi-xin-wen-8.m3u8
-#EXTINF:-1 tvg-name="台視新聞" tvg-id="368814" tvg-country="台灣" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724092903588198_34.png" group-title="新聞",[BD]台视新闻
-https://stream1.freetv.fun/tai-shi-xin-wen-9.m3u8
-#EXTINF:-1 tvg-name="台視新聞" tvg-id="368814" tvg-country="台灣" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724092903588198_34.png" group-title="新聞",[BD]台视新闻
-https://stream1.freetv.fun/tai-shi-xin-wen-11.m3u8
-#EXTINF:-1 tvg-name="台視新聞" tvg-id="368814" tvg-country="台灣" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724092903588198_34.png" group-title="新聞",[BD]台视新闻
-https://stream1.freetv.fun/tai-shi-xin-wen-12.m3u8
-#EXTINF:-1 tvg-name="台視新聞" tvg-id="368814" tvg-country="台灣" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724092903588198_34.png" group-title="新聞",[BD]台视新闻
-https://stream1.freetv.fun/tai-shi-xin-wen-15.m3u8
-#EXTINF:-1 tvg-name="台視新聞" tvg-id="368814" tvg-country="台灣" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724092903588198_34.png" group-title="新聞",[BD]台视新闻
-https://stream1.freetv.fun/tai-shi-xin-wen-16.m3u8
-#EXTINF:-1 tvg-name="台視新聞" tvg-id="368814" tvg-country="台灣" tvg-language="國語" tvg-logo="https://epg.pw/media/images/channel/2023/07/24/large/20230724092903588198_34.png" group-title="新聞",[BD]台视新闻
-https://stream1.freetv.fun/tai-shi-xin-wen-10.m3u8
+#EXTINF:-1 tvg-name="CCTV13" tvg-id="" tvg-country="中國大陸" tvg-language="國語" tvg-logo="" group-title="新聞",[BD]CCTV13新闻台
+http://221.5.12.130:2223/hls/65/index.m3u8
